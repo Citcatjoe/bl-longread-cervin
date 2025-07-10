@@ -1,0 +1,1082 @@
+{# Looking fot these files in given path #} {% use
+'_metas-and-scripts.html.twig' %} {% use '_header-and-share.html.twig' %} {% use
+'_html-elements.html.twig' %}
+
+<!DOCTYPE html>
+
+<html lang="fr" class="h-full relative">
+    <head>
+
+        {{ block("consent") }}
+
+
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap"
+            rel="stylesheet"
+        />
+        <!-- <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@600&display=swap" rel="stylesheet"> -->
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Caprasimo&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            href="https://cdn.jsdelivr.net/gh/StephanWagner/jBox@v1.3.3/dist/jBox.all.min.css"
+            rel="stylesheet"
+        />
+
+        <link rel="stylesheet" href="css/audioplayer.css" />
+        <link rel="stylesheet" href="css/normalize.css" />
+        <link rel="stylesheet" href="css/main.css" />
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.css">
+
+        <!-- <link href="https://vjs.zencdn.net/8.0.4/video-js.css" rel="stylesheet" /> -->
+
+        {#
+        <?php include 'hb_card_tp.php'; ?>
+        #}
+        {{
+        block("head_brand")
+        }}
+
+        <script type="application/ld+json">
+        {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "datePublished": "2025-06-19",
+        "dateModified": "2025-06-19"
+        }
+        </script>
+    </head>
+    <!-- OneTrust Cookies Consent Notice start for blick.ch -->
+    <!-- <script src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js" data-document-language="true" type="text/javascript" charset="UTF-8" data-domain-script="d57e5842-f42f-46bc-a4ea-4a82bd82322c" ></script>
+    <script type="text/javascript">
+    function OptanonWrapper() { } 
+    </script> -->
+    <!-- OneTrust Cookies Consent Notice end for blick.ch -->
+    {#
+    {{
+    block("frame")
+    }}
+    #}
+    <body class="bg-white h-full">
+        <div class="wrapper bg-slate-100" id="scroll-container">
+            <!-- {{ block('loading_overlay') }} -->
+            {{ block("gtm") }}
+
+            {{ block("header") }}
+            {{ block("menu_overlay") }}
+
+            
+
+            <div class="hero max-w-screen-2xl mx-auto relative overflow-hidden">
+                <img src="img/this/100-ans-ascension-cervin-soleil.webp" alt="Soleil au dessus du Cervin" class="sun absolute left-1/2 -translate-x-1/2 -translate-y-1/2">
+                <img src="img/this/100-ans-ascension-cervin-edward-whymper.webp" alt="Edward Whymper pionnier de l'alpinisme" class="whymper absolute bottom-0">
+                <img src="img/this/100-ans-ascension-cervin-edward-whymper-date.webp" alt="Edward Whymper pionnier de l'alpinisme - scotch avec date" class="whymper-date absolute bottom-0">
+                <img src="img/this/100-ans-ascension-cervin-inoxtag.webp" alt="Inoxtag, un influenceur qui gravit le Cervin" class="inoxtag absolute bottom-0">
+                <img src="img/this/100-ans-ascension-cervin-inoxtag-date.webp" alt="Inoxtag, un influenceur qui gravit le Cervin - scotch avec date" class="inoxtag-date absolute bottom-0">
+                <img src="img/this/100-ans-ascension-cervin-montagne.webp" alt="Le cervin, montagne suisse" class="cervin absolute object-cover">
+                
+                <div class="txt-container overflow-visible absolute text-center">
+                    <img src="img/this/100-ans-ascension-cervin-txt-bg.png" alt="Fond sombre pour affichage du texte" class="txt-bg absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+                    <h1 class="text-white text-3xl md:text-5xl font-bold md:-ml-4 relative">
+                        <span>Cervin</span><br>
+                        <span class="block mt-8 md:mt-12">
+                            La montagne qui rend fou
+                        </span>
+                    </h1>
+                    <!-- <span class="subtitle relative">1865 - 2025</span> -->
+                </div>
+            </div>
+
+
+            <div class="container max-w-screen-2xl px-4 relative bg-white">
+
+
+
+                <div class="container max-w-2xl">
+
+
+                    <div class="chapeau container py-8 max-w-2xl">
+
+                        <span class="block text-xl md:text-2xl mt-2 md:mt-12">
+                            Le 14 juillet 1865, sept grimpeurs atteignaient pour la première fois le sommet le plus emblématique de Suisse. Seuls trois en sont redescendus vivants. 160 ans plus tard, l’engouement pour la montagne ne faiblit pas. A l’heure où les vidéos du youtubeur Inoxtag captivent les foules, nous nous sommes replongés dans cette histoire terriblement humaine. Récit.
+                        </span>
+
+                    </div>
+
+                    <div class="container flex py-4 max-w-2xl border-y mb-8">
+                        <time datetime="2025-06-19" class="hidden">19 juin 2025</time>
+                        <div class="author w-36 md:w-52 md:mr-4">		<span class="flex items-center">
+                                <img src="https://storytelling.blick.ch/fr/__is_embed_somewhere/img/camille-krafft.jpg" alt="Portrait de Camille Krafft, journaliste Blick" class="hidden md:block rounded-full w-12 mr-2.5">
+                                <div class="align-text-bottom text-xs">
+                                    <span class="inline-block font-extrabold"><a href="https://www.blick.ch/fr/auteurs/camille-krafft-journaliste-blick-id20560911.html" target="_blank" class="underline">Camille Krafft</a></span>
+                                    <span class="inline-block">Journaliste Blick</span>
+                                </div>
+                            </span>	</div> 
+                            <div class="author w-36 md:w-52">		<span class="flex items-center">
+                                <img src="https://storytelling.blick.ch/fr/__is_embed_somewhere/img/ajm-yellow.svg" alt="Logo Académie du journalisme et des médias" class=" hidden md:block rounded-full w-12 mr-2.5">
+                                <div class="align-text-bottom text-xs">
+                                    <span class="inline-block font-extrabold">Volée 16</span>
+                                    <span class="inline-block">Académie du journalisme et des médias</span>
+                                </div>
+                            </span>	
+                        </div>
+                    </div>
+
+
+
+
+
+                    <!-- <div class="container flex py-4 max-w-2xl border-y">
+                    <div class="author w-36 md:w-52 md:mr-4">		<span class="flex items-center">
+                            <img src="https://storytelling.blick.ch/fr/__is_embed_somewhere/img/alessia-barbezat.png" alt="Portrait de&nbsp;Alessia&nbsp;Barbezat" class="hidden md:block rounded-full w-12 mr-2.5">
+                            <div class="align-text-bottom text-xs">
+                                <span class="inline-block font-extrabold"><a href="https://www.blick.ch/fr/auteurs/alessia-barbezat-journaliste-blick-id19642404.html" target="_blank" class="underline">Alessia Barbezat</a></span>
+                                <span class="inline-block">Journaliste Blick</span>
+                            </div>
+                        </span>	</div> 
+                        <div class="author w-36 md:w-52">		<span class="flex items-center">
+                            <img src="https://storytelling.blick.ch/fr/__is_embed_somewhere/img/niels-ackermann.png" alt="Portrait de&nbsp;Alessia&nbsp;Barbezat" class=" hidden md:block rounded-full w-12 mr-2.5">
+                            <div class="align-text-bottom text-xs">
+                                <span class="inline-block font-extrabold"><a href="https://www.lundi13.ch/niels-ackermann" target="_blank" class="underline">Niels Ackermann</a></span>
+                                <span class="inline-block">Photographe/ Lundi13</span>
+                            </div>
+                        </span>	</div>
+                    </div> -->
+
+
+                    <!-- <div class= -mx-0 lg:-mx-32 xl:-mx-64 relative aspect-video">
+                    <iframe 
+                    
+                    src="https://player.vimeo.com/video/1061983330?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" 
+                    class="absolute top-0 left-0 w-full h-full"
+                    frameborder="0"
+                    allow="autoplay; fullscreen; clipboard-write; encrypted-media" 
+                    title="Alessia Plan 2">
+                    </iframe>
+                    </div> -->
+
+
+
+
+
+
+
+                    <p class="lettrine text-lg font-light mb-6">
+                        Un siècle et demi après les premières conquêtes, la montagne fascine un public de plus en plus large. Alors que les alpinistes font la queue pour atteindre le sommet de l’Everest, les Alpes ne sont pas épargnées par cet engouement: dans les refuges suisses, il faut se lever tôt pour éviter les embouteillages.  
+                    </p>  
+
+                    <p class="text-lg font-light mb-6">
+                        Les réseaux sociaux amplifient le phénomène. Dans une vidéo vue 10&nbsp;millions de fois, le youtubeur Inoxtag retrace son ascension du Cervin en 2023, alors qu’il s’entraîne pour le Toit du monde. Une montagne «avec un vrai flow», avertit le jeune homme, «encore plus dure que le Mont Blanc». Son guide ajoute: «Les premiers à l’ascension, ils se sont tués à la descente.»
+                    </p> 
+
+                    <figure class="pt-4 mx-0 pb-6">
+                        <div class="container">
+                        <div class="w-full">
+                            <img src="img/this/100-ans-ascension-cervin-carte.webp" alt="Carte de situation du Cervin en Suisse">
+                            <figcaption class="py-2 text-xs">Sommet emblématique des Alpes, le Cervin est situé à cheval entre la Suisse et l’Italie.
+                            </figcaption>
+                        </div>
+                        </div>
+                    </figure>
+
+                    <p class="text-lg font-light mb-6">
+                        Cet exploit, doublé d’une tragédie, a eu lieu il y a 160 ans exactement. Le 14 juillet 1865, quatre alpinistes et trois guides atteignent le sommet du Cervin pour la première fois. Seuls trois d’entre eux en redescendront vivants. L’élucidation de ce drame, dont les stigmates sont toujours vifs dans la région de Zermatt, se poursuit de nos jours.
+                    </p>
+
+                    <p class="text-lg font-light mb-20 md:mb-28">
+                        Blick et l’Académie du journalisme et des médias (AJM) se sont plongés dans cette histoire terriblement humaine, avec une question inédite en tête: hier comme aujourd’hui, pourquoi la montagne les rend-elle tous fous?
+                    </p>
+
+                    
+                </div>
+
+
+
+
+                <!-- SECTION TITLE -->
+                <div id="test" class="section-title -mx-4 mb-12 md:mb-20">
+                    <div class="container max-w-2xl h-28 md:h-52 relative">
+                        <img src="img/this/100-ans-ascension-cervin-carte-badge-hotel.webp" alt="Illustration chapitre 1" class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+                        
+                    </div>
+                </div>
+                <div class="container max-w-2xl">
+                    <h2 class="text-center leading-none block mb-8 md:mb-16">Un soir à l'hôtel<br>Monte Rosa</h2>
+
+                    <p class="lettrine text-lg font-light mb-6">
+                        Ils sont deux hommes à dîner en tête-à-tête ce mercredi 12 juillet 1865 dans la salle à manger de l’hôtel Monte Rosa, dont on imagine les lustres flamboyants et les chaises recouvertes de velours. Deux jeunes Anglais agités par une même obsession: atteindre le sommet du Cervin, dernière cime des Alpes encore vierge de conquête humaine. Le temps est clair ce soir-là, et la silhouette pyramidale de la montagne magique se découpe sur un ciel étoilé au-dessus de Zermatt. Pour une ascension, on ne saurait rêver mieux.
+                    </p>
+
+                    <figure class="pt-4 mx-0 pb-6">
+                        <div class="container">
+                        <div class="w-full">
+                            <img src="img/this/100-ans-ascension-cervin-hotel-monte-rosa.webp" alt="Hôtel historique Monte Rosa à Zermatt">
+                            <figcaption class="py-2 text-xs">L’hôtel Monte Rosa de Zermatt propose encore aujourd’hui une suite de luxe “Whymper”, du nom de l’un des premiers conquérants du Cervin.
+                        </figcaption>
+                        </div>
+                        </div>
+                    </figure>
+
+                    <p class="text-lg font-light mb-8">
+                        Le premier des deux dîneurs s’appelle Edward Whymper, c’est un dessinateur de 24 ans au regard déterminé et aux dents longues, qui a déjà tenté sept fois de gravir le Cervin, sans succès. Le second, qui est âgé de 18 ans seulement, se nomme Lord Francis Douglas. Descendant d’une lignée d’aristocrates, il a déjà acquis une renommée dans le milieu de l’alpinisme. C’est décidé: le lendemain, ils tenteront ensemble l’escalade de cet amas hostile de glace et de rochers dont la «pureté» magnétise les nouveaux conquérants des cimes.
+                    </p>
+
+                    <!-- DUO FLIP WHYMPER/DOUGLAS -->
+                    <figure class="-mx-0 lg:-mx-20  pt-4 pb-6 mb-8">
+                        <div class="grid gap-4 md:grid-cols-2">
+                            <div class="is-rotated">
+
+
+                                <div class="card card-whymper mx-auto">
+                                    <div class="front">
+                                        <img src="img/this/100-ans-ascension-cervin-portrait-edward-whymper.webp" alt="Edward Whymper, alpiniste légendaire" class="w-full">
+                                    </div>
+                                    <div class="back relative bg-transparent">
+                                        <img src="img/this/100-ans-ascension-cervin-portrait-edward-whymper-back.webp" alt="Edward Whymper, alpiniste légendaire" class="w-full">
+                                        <div class="absolute text-left p-4 md:p-6 top-0 right-0 bottom-0 left-0">
+                                            <span class="block font-semibold uppercase underline text-sm md:text-base">Edward Whymper</span>
+                                            <span class="block font-semibold mb-3 md:mb-4 text-sm">Le leader</span>
+                                            <span class="block mb-4 text-xs md:text-base">Graveur anglais et alpiniste légendaire, Edward Whymper réalise de nombreuses ascensions, dont celle de la Barre des Écrins (1864). Quand il se lance à l’assaut du Cervin, il a 24 ans. Passionné de montagne, il est obsédé par la gloire que lui apporterait cet exploit. Héros intrépide, Edward Whymper est aussi connu pour son implacable narcissisme. </span>
+                                            <span class="italic block text-xs">«J’ai pris la résolution de me lever plus tôt, c’est l’un des meilleurs moyens de parvenir au succès.» – Journal intime d’Edward Whymper.</span>
+                                        </div>
+                                        <img src="img/this/close.svg" alt="icône de fermeture" class="absolute top-4 right-4 w-6">
+                                    </div>
+                                </div>
+                              
+
+
+                            </div>
+                            <div class="is-rotated">
+
+                                <div class="card card-douglas mx-auto mt-8 md:mt-16">
+                                    <div class="front">
+                                        <img src="img/this/100-ans-ascension-cervin-portrait-lord-francis-douglas.webp" alt="Portrait de Lord Francis Douglas" class="w-full">
+                                    </div>
+                                    <div class="back relative bg-transparent">
+                                        <img src="img/this/100-ans-ascension-cervin-portrait-lord-francis-douglas-back.webp" alt="Portrait de Lord Francis Douglas" class="w-full">
+                                        <div class="absolute text-left p-4 md:p-6 top-0 right-0 bottom-0 left-0">
+                                            <span class="block font-semibold uppercase underline text-sm md:text-base">Lord Francis Douglas</span>
+                                            <span class="block font-semibold mb-3 md:mb-4 text-sm">L'aristrocrate</span>
+                                            <span class="block mb-4 text-xs">Aristocrate britannique et alpiniste amateur, Lord Francis Douglas finance l’expédition de 1865. Il n’est pas un ‘touriste’ pour autant, puisqu’il a déjà traversé les Alpes, en partant de Zinal, en 1863. Et gravi plusieurs sommets avec Edward Whymper et Peter Taugwalder père, afin de préparer le Cervin.</span>
+                                            <span class="italic block text-xxs">«Son exploit récent de l'ascension du Gabelhorn avait suscité mon émerveillement et mon admiration.» – Edward Whymper, «Scrambles amongst the Alps»</span>
+                                        </div>
+                                        <img src="img/this/close.svg" alt="icone de fermeture" class="absolute top-4 right-4 w-6">
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        
+
+
+                        </figcaption>
+                    </figure>
+
+                    <p class="text-lg font-light mb-6">
+                        Les deux explorateurs ne se connaissent que depuis la veille, à la faveur d’une rencontre fortuite au-dessus du village. Ils n’ont pas eu le loisir de laisser mûrir leur projet, car le temps presse: le 11 juillet, une équipe concurrente est partie durant la nuit avec un mulet chargé de provisions pour tenter l’ascension par l’arête italienne, dite arête du Lion. L’expédition a été organisée par un guide natif du Val d’Aoste, à la fois proche et rival d’Edward Whymper: Jean-Antoine Carrel.  
+                    </p>
+
+                    <!-- MONO FLIP CARREL-->
+                    <figure class="-mx-0  pt-4 pb-6 mb-6">
+                            <div class="is-rotated">
+
+
+                                <div class="card card-carrel mx-auto">
+                                    <div class="front">
+                                        
+                                        <img src="img/this/100-ans-ascension-cervin-portrait-jean-antoine-carrel.webp" alt="Portrait de Jean Jean-Antoine Carrel" class="w-full">
+                                    </div>
+                                    <div class="back relative bg-transparent">
+                                        <img src="img/this/100-ans-ascension-cervin-portrait-jean-antoine-carrel-back.webp" alt="Portrait de Jean Jean-Antoine Carrel" class="w-full">
+                                        <div class="absolute text-left p-4 md:p-6 top-0 right-0 bottom-0 left-0">
+                                            <span class="block font-semibold uppercase underline text-sm md:text-base">Jean-Antoine Carrel</span>
+                                            <span class="block font-semibold mb-3 md:mb-4 text-sm">Le concurrent</span>
+                                            <span class="block mb-4 text-xs">Enfant du Val d’Aoste, Jean-Antoine Carrel rêve de gravir le Cervin depuis son enfance. En 1865, il est unanimement le meilleur alpiniste de la vallée. Il a déjà tenté à huit reprises l'ascension ultime, dont une fois avec Edward Whymper, devenu son rival. Jean-Antoine Carrel veut monter par la face italienne, pour amener son pays au sommet, avant les autres.</span>
+                                            <span class="italic block text-xxs">«C’est le meilleur grimpeur que j’ai jamais vu. Le seul homme à refuser obstinément la défaite et à croire que le Cervin n'était pas inaccessible.» ​– ​C. D. Cunningham</span>
+                                        </div>
+                                        <img src="img/this/close.svg" alt="icône de fermeture" class="absolute top-4 right-4 w-6">
+                                    </div>
+                                </div>
+                                
+
+
+
+                            </div>
+                            
+                       
+
+
+                        </figcaption>
+                    </figure>
+
+                    <p class="text-lg font-light mb-6">
+                        Alors qu’il devait tenter une nouvelle fois l’ascension avec Edward Whymper, Jean-Antoine Carrel l’aurait lâché en catimini durant la nuit précédente pour entreprendre l’expédition avec le Club Alpin Italien, afin de faire rejaillir la gloire de l’exploit sur le tout jeune royaume de la péninsule. La première conquête du Cervin a donc des augures sombres comme les roches qui portent la montagne: bâtie sur un enchaînement de hasards, elle prend racine dans une trahison, selon le récit qu’en fera plus tard Edward Whymper. Aujourd’hui encore, son journal publié sous forme de livre dès 1871 («Scrambles amongst the Alps», «Escalades dans les Alpes» dans sa version française) reste la principale source permettant de reconstituer le déroulement de l’ascension. Un témoignage précieux, mais à manipuler avec des pincettes: il ne s’agit que d’une version de l’histoire, rapidement devenue la variante dominante.  
+                    </p>
+
+                    <p class="text-lg font-light mb-8">
+                        A peine les deux dîneurs du Monte Rosa ont-ils fini leur repas que deux autres hommes pénètrent dans la salle à manger. L’un est un religieux anglican doublé d'un alpiniste chevronné, le révérend Charles Hudson. Les sujets de Sa Majesté sont partout dans les Alpes en cette ère victorienne exaltant la domination de la nature, le progrès industriel et la réussite individuelle. Le chapelain est accompagné d’un certain Douglas Hadow, un Londonien de 19 ans qui vit sa première saison d’alpinisme. La salle bruisse de questions, et les dîneurs commencent à échanger avec les nouveaux venus. Par hasard, ces derniers ont le même dessein que leurs compatriotes: partir à l’assaut du Cervin le lendemain. 
+                    </p>
+
+                    <!-- DUO FLIP HUDSON/HADOW -->
+                    <figure class="-mx-0 lg:-mx-28  pt-4 pb-6 mb-8">
+                        <div class="grid gap-4 md:grid-cols-2">
+                            <div class="is-rotated">
+
+
+                                <div class="card card-hudson mx-auto md:mt-6">
+                                    <div class="front">
+                                        <img src="img/this/100-ans-ascension-cervin-portrait-charles-hudson.webp" alt="Portrait de Charles Hudson" class="w-full">
+                                    </div>
+                                    <div class="back relative bg-transparent">
+                                        <img src="img/this/100-ans-ascension-cervin-portrait-charles-hudson-back.webp" alt="Portrait de Charles Hudson" class="w-full">
+                                        <div class="absolute text-left p-4 md:p-6 top-0 right-0 bottom-0 left-0">
+                                            <span class="block font-semibold uppercase underline text-sm md:text-base">Charles Hudson</span>
+                                            <span class="block font-semibold mb-3 md:mb-4 text-sm">Le révérend</span>
+                                            <span class="block mb-4 text-xs md:text-base">Alpiniste anglais chevronné, Charles Hudson a déjà réussi de nombreuses ascensions dans les Alpes, dont le Mont Blanc, en 1857. Aventurier indépendant, il revendique l’exploration des sommets sans guide. Il a 36 ans quand il rejoint l’expédition d'Edward Whymper.</span>
+                                            <span class="italic block text-xs">Where there's a Will, there's a Way” / ”Quand il y a une volonté, il y a une voie”. Charles Hudson, en 1856</span>
+                                        </div>
+                                        <img src="img/this/close.svg" alt="icône de fermeture" class="absolute top-4 right-4 w-6">
+                                    </div>
+                                </div>
+                             
+
+
+
+                            </div>
+                            <div class="is-rotated">
+
+                                <div class="card card-hadow mx-auto mt-8 md:mt-0">
+                                    <div class="front">
+                                        <img src="img/this/100-ans-ascension-cervin-portrait-douglas-hadow.webp" alt="Portrait de Douglas Hadow" class="w-full">
+                                    </div>
+                                    <div class="back relative bg-transparent">
+                                        <img src="img/this/100-ans-ascension-cervin-portrait-douglas-hadow-back.webp" alt="Portrait de Douglas Hadow" class="w-full">
+                                        <div class="absolute text-left p-4 md:p-6 top-0 right-0 bottom-0 left-0">
+                                            <span class="block font-semibold uppercase underline text-sm md:text-base">Douglas Hadow</span>
+                                            <span class="block font-semibold mb-3 md:mb-4 text-sm">Le débutant</span>
+                                            <span class="block mb-4 text-xs md:text-base">À 19 ans, le Londonien Douglas Hadow vit, en 1865, sa première saison d’alpinisme. Avec son mentor, le révérend Charles Hudson, il gravit plusieurs sommets, dont le Mont-Blanc. Charles Hudson l’a amené à Zermatt et a insisté pour qu’il prenne part à l’ascension, malgré son manque d’expérience, ses maladresses et son matériel peu adéquat.</span>
+                                            <span class="italic block text-xs">«M. Hadow a gravi le Mont-Blanc en moins de temps que la plupart des hommes. Je le considère comme suffisamment bon pour venir avec nous.» – Edward Whymper, «Scrambles amongst the Alps»</span>
+                                        </div>
+                                        <img src="img/this/close.svg" alt="icône de fermeture" class="absolute top-4 right-4 w-6">
+                                    </div>
+                                </div>
+                              
+                            </div>
+                        </div>
+                    
+
+
+                        </figcaption>
+                    </figure>
+
+                    <p class="text-lg font-light mb-6">
+                        Après conciliabule, Edward Whymper et Lord Francis Douglas proposent à Charles Hudson et Douglas Hadow de partir avec eux. «Nous tombâmes d’accord qu’il serait vraiment fâcheux de voir deux expéditions indépendantes tenter en même temps la même ascension», racontera Edward Whymper dans ses carnets. Douglas Hadow a peu d’expérience, il est maladroit et son matériel n’est pas adéquat. Mais peu importe: le destin des quatre Britanniques est scellé.
+                    </p>
+
+                    <p class="text-lg font-light mb-10">
+                        Pas question toutefois de partir seuls. Les riches touristes ont déjà pris langue, chacun de leur côté, avec deux montagnards: Michel Croz, un paysan originaire de Chamonix à la force prodigieuse, et Peter Taugwalder, un enfant de Zermatt qui a déjà escaladé plus de 80 fois le Mont Rose, toit de la Suisse. Contrairement aux autres guides de la région, où le Cervin était considéré comme l’antre d’esprits maléfiques, Peter Taugwalder pense qu’il est possible de gravir la corne, et d’en redescendre. Pour preuve; il emmènera son fils âgé de 22 ans, Peter Taugwalder Junior, dans l’expédition. 
+                    </p>
+
+                    <!-- TRIO FLIP CROZ/TAUGWALDER/TAUGWALDER -->
+                    <figure class="-mx-0 lg:-mx-32 xl:-mx-48  pt-4 pb-6 mb-10">
+                        <div class="grid gap-4 md:grid-cols-3">
+                            <div class="is-rotated">
+
+
+                                <div class="card card-croz mx-auto md:mt-16">
+                                    <div class="front">
+                                        <img src="img/this/100-ans-ascension-cervin-portrait-michel-croz.webp" alt="Portrait de Michel Croz" class="w-full">
+                                    </div>
+                                    <div class="back relative bg-transparent">
+                                        <img src="img/this/100-ans-ascension-cervin-portrait-michel-croz-back.webp" alt="Portrait de Michel Croz" class="w-full">
+                                        <div class="absolute text-left p-4 md:p-6 top-0 right-0 bottom-0 left-0">
+                                            <span class="block font-semibold uppercase underline text-sm md:text-base">Michel Croz</span>
+                                            <span class="block font-semibold mb-3 md:mb-4 text-sm">Le baraqué</span>
+                                            <span class="block mb-4 text-xs">Né en 1830 à Chamonix, Michel Croz est paysan cordonnier et guide de haute montagne. D’une force remarquable et d’un instinct sûr, il serait l’un des seuls, à l’âge d’or de l’alpinisme, à avoir rivalisé avec les grands guides suisses.</span>
+                                            <span class="italic block text-xxs">«Dans les circonstances qui exigeaient l'emploi de sa force prodigieuse et de la connaissance incomparable qu'il avait des glaces et des neiges, alors seulement on pouvait dire que Michel Croz se sentait réellement heureux» – Edward Whymper, «Scrambles amongst the Alps»</span>
+                                        </div>
+                                        <img src="img/this/close.svg" alt="icône de fermeture" class="absolute top-4 right-4 w-6">
+                                    </div>
+                                </div>
+
+
+
+                            </div>
+                            <div class="is-rotated">
+
+
+                                <div class="card card-taugwalder-pere mx-auto mt-8 md:mt-0">
+                                    <div class="front">
+                                        <img src="img/this/100-ans-ascension-cervin-portrait-peter-taugwalder-pere.webp" alt="Portrait de Peter Taugwalder père" class="w-full">
+                                    </div>
+                                    <div class="back relative bg-transparent">
+                                        <img src="img/this/100-ans-ascension-cervin-portrait-peter-taugwalder-pere-back.webp" alt="Portrait de Peter Taugwalder père" class="w-full">
+                                        <div class="absolute text-left p-4 md:p-6 top-0 right-0 bottom-0 left-0">
+                                            <span class="block font-semibold uppercase underline text-sm md:text-base">Peter Taugwalder père</span>
+                                            <span class="block font-semibold mb-3 md:mb-4 text-sm">Le montagnard</span>
+                                            <span class="block mb-4 text-sm ">Guide chevronné de Zermatt, Peter Taugwalder père compte à son actif plus de 80 ascensions du Mont Rose, plus haut sommet de Suisse. En 1865, à 45 ans, il réalise enfin son rêve : tenter le Cervin, qu’il croit escaladable contre l’avis de la majorité. Il vient avec son fils.</span>
+                                            <!-- <span class="italic block text-xs">« C’était l'un des rares guides de Zermatt qui souhaitait s'aventurer très haut sur le Cervin, où, selon la légende locale, résidaient des esprits maléfiques. » </span> -->
+                                        </div>
+                                        <img src="img/this/close.svg" alt="icône de fermeture" class="absolute top-4 right-4 w-6">
+                                    </div>
+                                </div>
+                               
+                            </div>
+                            <div class="is-rotated">
+
+
+                                <div class="card card-taugwalder-fils mx-auto mt-8 md:mt-16">
+                                    <div class="front">
+                                        <img src="img/this/100-ans-ascension-cervin-portrait-peter-taugwalder-fils.webp" alt="Portrait de Peter Taugwalder fils" class="w-full">
+                                    </div>
+                                    <div class="back relative bg-transparent">
+                                        <img src="img/this/100-ans-ascension-cervin-portrait-peter-taugwalder-fils-back.webp" alt="Portrait de Peter Taugwalder fils" class="w-full">
+                                        <div class="absolute text-left p-4 md:p-6 top-0 right-0 bottom-0 left-0">
+                                            <span class="block font-semibold uppercase underline text-sm md:text-base">Peter Taugwalder fils</span>
+                                            <span class="block font-semibold mb-3 md:mb-4 text-sm">Le surdoué</span>
+                                            <span class="block mb-4 text-xs">Né à Zermatt, Peter Taugwalder fils commence à guider dès son adolescence. À 22 ans, il participe à sa première ascension du Cervin, d’abord comme porteur, puis comme guide, sur l’insistance de son père.</span>
+                                            <span class="italic block text-xxs">«Ce jeune garçon remportera rapidement des succès, à en juger par le développement si précoce des qualités requises pour le métier de guide.» Livre d'or de l'hôtel Riffel de Zermatt, en 1859.</span>
+                                        </div>
+                                        <img src="img/this/close.svg" alt="icône de fermeture" class="absolute top-4 right-4 w-6">
+                                    </div>
+                                </div>
+                               
+
+
+
+                            </div>
+                        </div>
+                        <!-- <figcaption class="py-2 text-xs">L’avion de Donald Trump Jr., le fils du président américain, le 7 janvier 2025 sur la piste de l’aéroport de Nuuk. Une «visite privée» qui a fait jaser sur l’île et dans le monde entier. Photos – IMAGO -->
+
+
+                        </figcaption>
+                    </figure>
+
+                    <!-- <p class="text-lg font-light mb-6">
+                        Les deux dîneurs ne sont pas encore au courant des événements qui se déroulent dans la nuit étoilée. Alors qu’ils s’apprêtent à rejoindre le lit, un bruit de pas résonne dans le couloir. C’est un homme qui vient les prévenir: une expédition concurrente, partie en même temps qu’eux, a réussi à atteindre le sommet du Cervin quelques heures plus tôt. Les deux Anglais sont abasourdis. 
+                    </p> -->
+
+                    <p class="text-lg font-light mb-20 md:mb-28">
+                        «Hélas ! Quel récit différent j’aurais eu à faire si un seul des anneaux de cette chaîne fatale de circonstances imprévues se fût rompu!», écrira Edward Whymper en clôture du chapitre de son livre qui relate la veille de l’ascension.
+                    </p>
+
+                   
+                </div>
+                
+                
+                <!-- SECTION TITLE -->
+                <div class="section-title -mx-4 mb-12 md:mb-20">
+                    <div class="container max-w-2xl h-28 md:h-52 relative">
+                        <img src="img/this/100-ans-ascension-cervin-carte-badge-montagne.webp" alt="Illustration chapitre 2" class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+
+                        
+                    </div>
+                </div>
+                <div class="container max-w-2xl">
+                    <h2 class="text-center leading-none block mb-8 md:mb-16">Conquérir les cimes</h2>
+
+                    <p class="lettrine text-lg font-light mb-8 md:mb-12">
+                        Avant de conter l’escalade, il faut s’arrêter quelques instants sur le décor, ces pics grandioses qui rendent fous les sujets de Sa Majesté. A l’époque, l’Himalaya est encore au bout du monde, et ce sont les Alpes qui font office d’horizon. Durant «l’âge d’or» de l’alpinisme, qui court de 1854 à 1865, pas moins de sept montagnes mythiques sont conquises, du Wetterhorn au Matterhorn, en passant par le Grand Combin, second plus haut faite de Suisse romande.
+                    </p> 
+
+                    <span class="block font-sans font-semibold border-t-4 border-black text-custom-xl antialiased pt-5  mb-6 md:mb-12">
+                        <span class="block mb-1.5">L’âge d’or de l’alpinisme (1854–1865)</span>
+                        <span class="block text-xs opacity-50 font-normal">Âge d’or: Période marquant les 11 ans entre l'ascension du Wetterhorn (1854) et celle du Cervin (1865). </span>
+                    </span>
+
+                    <div class="sommets-container mb-12 md:mb-16">
+
+                        <img src="img/this/100-ans-ascension-cervin-sommets-drap-ch.webp" alt="Illustration d'un drapeau suisse" class="drap-weisshorn">
+                        <img src="img/this/100-ans-ascension-cervin-sommets-weisshorn-txt.webp" alt="Elément textuel en rapport avec le Weisshorn" class="txt-weisshorn">
+                        <img src="img/this/100-ans-ascension-cervin-sommets-weisshorn.webp" alt="Illustration du Weisshorn" class="sommets-weisshorn">
+                        
+
+
+                        <img src="img/this/100-ans-ascension-cervin-sommets-drap-ch-ita.webp" alt="Illustration d'un drapeau italo-suisse" class="drap-cervin">
+                        <img src="img/this/100-ans-ascension-cervin-sommets-cervin-txt.webp" alt="Elément textuel en rapport avec le Cervin" class="txt-cervin">
+                        <img src="img/this/100-ans-ascension-cervin-sommets-cervin.webp" alt="Illustration du Cervin" class="sommets-cervin">
+
+                        <img src="img/this/100-ans-ascension-cervin-sommets-drap-fr.webp" alt="Illustration d'un drapeau français" class="drap-barre-des-ecrins">
+                        <img src="img/this/100-ans-ascension-cervin-sommets-barre-des-ecrins-txt.webp" alt="Elément textuel en rapport avec la Barre des Écrins" class="txt-barre-des-ecrins">
+                        <img src="img/this/100-ans-ascension-cervin-sommets-barre-des-ecrins.webp" alt="Illustration de la Barre des Écrins" class="sommets-barre-des-ecrins">
+
+                        <!-- <span class="sommets-wetterhorn-infos"> -->
+                            
+                        <!-- </span> -->
+                        <img src="img/this/100-ans-ascension-cervin-sommets-drap-ch.webp" alt="Illustration d'un drapeau suisse" class="drap-wetterhorn">
+                        <img src="img/this/100-ans-ascension-cervin-sommets-wetterhorn-txt.webp" alt="Elément textuel en rapport avec le Wetterhorn" class="txt-wetterhorn">
+                        <img src="img/this/100-ans-ascension-cervin-sommets-wetterhorn.webp" alt="Illustration du Wetterhorn" class="sommets-wetterhorn">
+
+                        <img src="img/this/100-ans-ascension-cervin-sommets-drap-ch.webp" alt="Illustration d'un drapeau suisse" class="drap-mont-blanc-de-saas">
+                        <img src="img/this/100-ans-ascension-cervin-sommets-mont-blanc-de-saas-txt.webp" alt="Elément textuel en rapport avec le Mont Blanc de Saas" class="txt-mont-blanc-de-saas">
+                        <img src="img/this/100-ans-ascension-cervin-sommets-mont-blanc-de-saas.webp" alt="Illustration du Mont Blanc de Saas" class="sommets-mont-blanc-de-saas">
+
+
+                        <img src="img/this/100-ans-ascension-cervin-sommets-drap-ita.webp" alt="Illustration d'un drapeau italo-suisse" class="drap-gran-paradiso">
+                        <img src="img/this/100-ans-ascension-cervin-sommets-gran-paradiso-txt.webp" alt="Elément textuel en rapport avec le Grand Paradis" class="txt-gran-paradiso">
+                        <img src="img/this/100-ans-ascension-cervin-sommets-gran-paradiso.webp" alt="Illustration du Grand Paradis" class="sommets-gran-paradiso">
+
+                        <img src="img/this/100-ans-ascension-cervin-sommets-drap-ch.webp" alt="Illustration d'un drapeau suisse" class="drap-grand-combin">
+                        <img src="img/this/100-ans-ascension-cervin-sommets-grand-combin-txt.webp" alt="Elément textuel en rapport avec le Grand Combin" class="txt-grand-combin">
+                        <img src="img/this/100-ans-ascension-cervin-sommets-grand-combin.webp" alt="Illustration du Grand Combin" class="sommets-grand-combin">
+
+
+                    </div>
+
+                    <p class="text-lg font-light mb-6">
+                        Les acteurs de ces exploits sont Anglais, mais aussi Italiens ou Français. La terre étant déjà sous contrôle, il faut désormais sonder les profondeurs ou s’élever vers le ciel pour démontrer sa puissance et poursuivre l’inventaire du monde. Lieu d’exploration scientifique, de confrontation à l’inconnu et de dépassement de soi, la montagne de l’époque exalte aussi des valeurs virilistes et impérialistes. 
+                    </p> 
+
+                    <div class="encart -mx-0 lg:-mx-32 xl:-mx-64 mb-6 md:mb-10 rounded-lg">
+                        <div class="encart-header relative px-4 md:px-6 py-4 md:py-6">
+                            <h3 class="text-custom-xxl">Quand le Valais<br>s'ouvrait au monde</h3>
+                            <span id="encart-btn" class="flex items-center gap-3 cursor-pointer absolute top-1/2 right-6 -translate-y-1/2">
+                                <span class="encart-txt font-sans text-[#8B5C2A] underline">Réduire</span>
+                                <!-- <img src="img/this/encart-arrow.svg" alt="" /> -->
+                            </span>
+                            
+                        </div>
+                        <div class="encart-body px-4 md:px-6 md:columns-3 gap-x-4 text-[#A8805C] text-normal pb-4 md:pb-6">
+                            <p class="mb-6">
+                                Alors que la plus ancienne compagnie de guides de haute montagne a vu le jour à Chamonix en 1821, la fonction se professionnalisera petit à petit à travers des structures similaires créées à la fin du XIXe et au début du XXe siècle. Les cantons commenceront à délivrer des certificats attestant de la qualité des guides. «Les alpinistes avaient besoin de savoir qu’ils avaient affaire à un guide sérieux capable de les emmener sur le sommet qu’ils désiraient, avec tous les risques que cela comportait», résume Laurent Tissot, historien du tourisme.
+                            </p>
+
+                            <p class="mb-6">
+                                Le fossé culturel entre les deux mondes est énorme. Les vallées valaisannes de l’époque, où l’on vivait de l’exploitation des bêtes et de la paysannerie, sont appréhendées comme des terres exotiques, où la population doit être éduquée. «L’alpinisme a représenté un formidable moyen de socialisation pour les populations locales, parce que les guides ont commencé à apprendre l’anglais, tout en se confrontant à une autre culture. Et c’était réciproque, même si les Anglais n’apprenaient pas le Haut-Valaisan.» 
+                            </p>
+
+                            <p>
+                                D’après Laurent Tissot, l’alpinisme a donc permis l’ouverture au monde de ces vallées valaisannes, qui vivent aujourd’hui grandement du tourisme. «Des guides sont partis au Canada, en Colombie britannique ou dans les Andes avec leurs clients, parce qu’ils maîtrisaient la technique et avaient également des connaissances linguistiques», précise le spécialiste.
+                            </p>
+
+                            <div class="spacer block h-12"></div>
+
+                        </div>
+                        
+
+
+                        
+                    </div>
+
+                    <p class="text-lg font-light mb-6">
+                        Les alpinistes de l’époque étant issus de l’aristocratie et de la haute bourgeoisie, des autochtones leur servaient de guides et de porteurs, comme aujourd’hui les sherpas dans l’Himalaya. Car il fallait bien acheminer les tentes, le matériel, le ravitaillement nécessaires aux héros des cimes, et leur montrer le chemin.   
+                    </p>
+
+                    <figure class="float-right pt-4 pb-6 -mx-0 lg:-mx-32 xl:-mx-64">
+                        <div class="container">
+                            <div class="w-full">
+                                <img src="img/this/100-ans-ascension-cervin-musee-zermatt-interieur.webp" alt="Photo prise à l'intérieur du Musée du Cervin à Zermatt" class="w-full">
+                                <figcaption class="py-2 text-xs">Le Musée du Cervin, à Zermatt, retrace l’histoire des premiers conquérants des cimes.</figcaption>
+                            </div>
+                        </div>
+                    </figure>
+
+                    <p class="text-lg font-light mb-6">
+                        Ces indigènes ont un regard sur «leurs» montagnes différent de celui des riches étrangers. Attirés par les revenus que les alpinistes leur promettaient, ils n’étaient pas dans une logique de conquête. Du reste, et c’est un comble, «le Cervin avait peut-être déjà été vaincu avant l’arrivée des premiers touristes, par des locaux qui recherchaient des cristaux, du granit ou qui chassaient le chamois. Une fois qu'ils étaient en haut, ils redescendaient. Pour eux, cela n’avait rien de spectaculaire», avance Laurent Tissot, historien du tourisme.    
+                    </p>
+
+                    <div class="pt-4 pb-6">
+                        <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/1090880144?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Tissot final"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+                    </div>
+
+                    <p class="text-lg font-light mb-6">
+                       160 ans après ces premiers grimpeurs accompagnés de leurs guides, le Matterhorn reste l’un des sommets les plus convoités, même s’il n’est plus à conquérir. Chaque année, 2500 à 3000 personnes entreprennent son ascension. A Zermatt, dans un musée entièrement consacré à la mythique montagne, celles et ceux qui tentent l’aventure peuvent commencer par se plonger dans le drame originel, qu’illustre une célèbre gravure de Gustave Doré. 
+                    </p>
+
+                    
+
+                    <!-- <p class="text-lg font-light mb-6">
+                        Ces indigènes ont un regard sur “leurs” montagnes différent de celui des riches étrangers. Attirés par les revenus que les alpinistes leur promettaient, ils n’étaient pas dans la même logique de conquête. Du reste, et c’est un comble, “le Cervin avait peut-être déjà été vaincu avant l’arrivée des premiers touristes, par des locaux qui recherchaient des pierres précieuses, du granit ou qui chassaient le chamois. Une fois qu’ils étaient en haut, ils redescendaient. Pour eux, cela n’avait rien de spectaculaire”, avance Laurent Tissot. 
+                    </p> -->
+
+                    <figure class="pt-4 pb-6 mb-16 md:mb-28 mx-auto w-7/12">
+                        <div class="container">
+                            <div class="w-full">
+                                <img src="img/this/100-ans-ascension-cervin-chute-gustave-dore.webp" alt="Illustration du drame du Cervin par Gustave Doré" class="w-full">
+                                <figcaption class="py-2 text-xs">Inspiré par les articles de journaux de l’époque, le célèbre artiste Gustave Doré a immortalisé le drame du Cervin sur une lithographie en 1865.</figcaption>
+                            </div>
+                        </div>
+                    </figure>
+
+                    <!-- <p class="text-lg font-light mb-20 md:mb-28">
+                       160 ans après ces premiers grimpeurs accompagnés de leurs guides, le Matterhorn continue à fasciner, même s’il n’est plus à conquérir. Chaque année, 2500 à 3000 personnes entreprennent l’ascension du Cervin, qui reste l’un des sommets européens les plus convoités. A Zermatt, dans un musée vétuste entièrement consacré à la mythique corne, celles et ceux qui tentent l’aventure peuvent commencer par se plonger dans le drame originel, qu’illustre une célèbre gravure de Gustave Doré.
+                    </p>  -->
+
+                    
+
+                </div>
+
+                <!-- SECTION TITLE -->
+                <div class="section-title -mx-4 mb-12 md:mb-20">
+                    <div class="container max-w-2xl h-28 md:h-52 relative">
+                        <img src="img/this/100-ans-ascension-cervin-carte-badge-carte.webp" alt="Illustration chapitre 3" class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+
+                        
+                    </div>
+                </div>
+                <div class="container max-w-2xl">
+                    <h2 class="text-center leading-none block mb-8 md:mb-16">À l'assaut de la montagne</h2>
+
+                    <p class="lettrine text-lg font-light mb-6">
+                        Dans une vitrine du Musée du Cervin, une chaussure élimée attire l’oeil des visiteurs en cette année 2025. Difficile de croire que ce soulier de cuir clouté a gravi la montagne il y a 160 ans, et pourtant. Fabriqué selon le modèle anglais de l’époque, ce soulier «de ville» appartenait à Douglas Hadow, le plus inexpérimenté des participants à l’expédition de 1865. 
+                    </p>
+
+                    <figure class="-mx-0 lg:-mx-32 xl:-mx-64 pt-4 pb-6">
+                        <div class="grid gap-4 md:grid-cols-2">
+                            <div class="">
+                                <img src="img/this/100-ans-ascension-cervin-chaussure-musee-zermatt.webp" alt="Au musée du Cervin à Zermatt, une chaussure de Douglas Hadow" class="w-full">
+                                <figcaption class="py-2 text-xs">Douglas Hadow, le moins expérimenté des participants à la première ascension du Cervin, portrait des chaussures qui n’étaient pas adaptées à la haute montagne.</figcaption>
+                            </div>
+                            <div class="">
+                                <img src="img/this/100-ans-ascension-cervin-corde-musee-zermatt.webp" alt="Au Musée du Cervin de Zermatt, on peut voir la corde en chanvre de la première ascension qui a lâché lors de la descente." class="w-full">
+                                <figcaption class="py-2 text-xs">Au Musée du Cervin de Zermatt, on peut voir la corde en chanvre de la première ascension qui a lâché lors de la descente.</figcaption>
+                            </div>
+                        </div>
+                        <!-- <figcaption class="py-2 text-xs">Image 1: Jeanne enregistre les usagers, sous leur blase (tout est anonyme ici), au fur et à mesure qu’ils arrivent. Image 2: elle doit aussi indiquer, pour les statistiques, ce qu’ils comptent consommer et comment (voir les catégories de produits et d’usages ci-dessus).</figcaption> -->
+                    </figure>
+
+                     <p class="text-lg font-light mb-6">
+                         La godasse est à l’image du matériel de l’époque: rudimentaire. Les cordes, fabriquées en chanvre, sont réputées robustes. Mais elles sont lourdes et peu fiables en cas de chute. 
+                    </p>
+
+                    
+
+                    <!-- DECALAGE -->
+                    <div class="container max-w-2xl relative">
+                        
+                        <figure class="alpiniste-container mx-auto w-4/5 md:w-80 mb-6 lg:absolute lg:-right-28 xl:-right-48 relative md:top-1/2 md:-translate-y-1/2">
+                            
+                            <img src="img/this/100-ans-ascension-cervin-equipement-alpiniste.webp" alt="Illustration d'un alpiniste de l'âge d'or de l'alpiniste avec son équipement" class="alpiniste w-full">
+                            <img src="img/this/hotspot2.svg" alt="Icône d'interaction" class="tooltip hotspot hotspot-chapeau" title="<b class='font-bold mb-2 block'>Le chapeau</b>L’équipe d'Edward Whymper ne portait pas de casques comme on en porte aujourd’hui, mais des chapeaux en laine ou des bonnets en tissu épais. Les chapeaux étaient avant tout des éléments de confort et de chaleur, plutôt que de protection contre les chutes.">
+                            <img src="img/this/hotspot2.svg" alt="Icône d'interaction" class="tooltip hotspot hotspot-corde" title="<b class='font-bold mb-2 block'>La corde</b>Lors de la descente du Cervin en 1865, une corde de secours, plus fine et moins résistante que les autres, a cédé quand Douglas Hadow a glissé, entraînant plusieurs alpinistes dans sa chute mortelle. Ce fragment de corde, seul témoin du drame, est conservé au musée de Zermatt. À l’époque, la corde fine ne supportait pas plus de 80 kg ; aujourd’hui, une corde synthétique de 8 mm peut résister à 2,5 tonnes.">
+                            <img src="img/this/hotspot2.svg" alt="Icône d'interaction" class="tooltip hotspot hotspot-piolet" title="<b class='font-bold mb-2 block'>Le piolet</b>A l’époque, les piolets des alpinistes étaient des outils rudimentaires comparés à ceux d’aujourd’hui, mais ils étaient déjà essentiels pour gravir une montagne. Ils étaient constitués d’un manche en bois et d’une tête en acier. Au fil des années, le manche a été  raccourci, un meilleur acier a été utilisé et les dragonnes ont vu le jour.">
+                            <img src="img/this/hotspot2.svg" alt="Icône d'interaction" class="tooltip hotspot hotspot-pantalon" title="<b class='font-bold mb-2 block'>Le pantalon</b>Pendant l'âge d'or de l'alpinisme, les pantalons des alpinistes étaient généralement longs et larges, souvent en laine pour la chaleur, parfois doublés. Ces pantalons étaient conçus pour offrir une bonne liberté de mouvement et une protection contre les éléments. Depuis les années 70, la quasi-totalité des vêtements d'alpinisme sont en tissu synthétique.">
+                            <img src="img/this/hotspot2.svg" alt="Icône d'interaction" class="tooltip hotspot hotspot-bottes" title="<b class='font-bold mb-2 block'>Les chaussures</b>Fabriquées en cuir robuste, les chaussures d’alpinisme étaient munies de semelles cloutées pour une meilleure accroche sur les terrains glaciaires et rocheux. Le jeune Douglas Hadow n’avait pas de clou sous ses semelles. C’est l’une des raisons de sa chute.">
+                            <figcaption class="py-2 text-xs">Piolet, pantalon, chaussures, corde, chapeau: voici l’équipement d’un alpiniste du milieu du XIXe siècle.</figcaption>
+                            
+                        </figure>
+
+                        <p class="text-lg font-light mb-6 lg:w-3/5">
+                            Il est 5h30, le 13 juillet, lorsque la petite troupe composée de huit personnes quitte Zermatt sous un ciel superbe et sans nuages, selon le récit d’Edward Whymper. Pour plus de sécurité, chacun des touristes a «son» guide attitré. Edward Whymper est accompagné par le plus jeune des fils Taugwalder, Peter Junior. Présent au début de l’expédition, son frère aîné redescendra le deuxième jour. 
+                        </p>
+
+                        <p class="text-lg font-light mb-6 lg:w-3/5">
+                            Les premières heures sont légères, presque euphoriques à en croire le récit de l’Anglais. Le vin qui remplit les gourdes donne-t-il des ailes aux grimpeurs? Ces derniers gravissent presque en courant les pentes qui, de loin, semblaient inaccessibles. La petite équipe passe la nuit dans la montagne. Tout s’annonce pour le mieux. 
+                        </p>
+
+                        <p class="text-lg font-light mb-10 lg:w-3/5">
+                            L’ascension reprend dès qu’il fait assez clair pour marcher. Après un passage délicat, qui nécessite de contourner un gros rocher et de faire passer les alpinistes plus expérimentés en tête, l’équipe gagne le sommet en début d’après-midi. Le Cervin est conquis. Encore faut-il redescendre.
+                        </p>
+
+                        
+                    </div>
+                    <!-- FIN DECALAGE -->
+                     
+                    <div class="mt-4 mb-6">
+
+                    
+                        <div class="md:flex mp3 w-full relative">
+                            <img src="img/this/100-ans-ascension-cervin-portrait-carrel-mp3.webp" alt="Portrait de Jean-Antoine Carrel" class="portrait-carrel-mp3">
+                            <audio controls class="">
+                                <source src="img/this/carrel.mp3" type="audio/mpeg">
+                                Votre navigateur ne supporte pas la lecture audio.
+                            </audio>
+                            
+                            <!-- <figcaption class="py-2 text-xs">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint voluptate quisquam consectetur minima architecto delectus dignissimos quae aut sequi commodi, itaque reiciendis quo laborum, repellat fugit esse, dicta tenetur atque.
+                            </figcaption> -->
+                        </div>
+                        <figcaption class="py-2 text-xs">Cet extrait audio est une reconstitution fictive de la vie de Jean-Antoine Carrel, racontée à la première personne. Il se base sur des sources réelles comme The Matterhorn (1908) de Guido Rey ou encore The Pioneers of the Alps (1887) de C. D. Cunningham.
+                        </figcaption>
+                    </div>
+                    
+
+                    <p class="text-lg font-light mb-6">
+                        Après avoir passé «une heure remplie de vie glorieuse» au sommet, avec vue sur les cimes étincelantes, les sept alpinistes rebroussent chemin. Mais Douglas Hadow, qui a gravi le Mont Blanc quelques jours plus tôt, montre des signes de fatigue, amplifiée par sa maladresse. A quelque 250 mètres en contrebas de la cime, le jeune homme glisse brutalement dans ses chaussures, entraînant son guide dans sa chute. La troupe étant encordée, le révérend Charles Hudson, puis Lord Francis Douglas les rejoignent dans l’abîme. Alors qu’Edward Whymper et les Taugwalder se sont arrimés à un rocher, la corde cède.
+                    </p>
+
+                    <div id="canvas-container">
+                        <!-- <div class="absolute loading w-full h-full bg-gray-100">
+                            <span class="absolute text-center text-gray-400 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">Chargement de l'animation<br><span id="value">0%</span></span>
+                        </div> -->
+                        <canvas id="canvas" class=""></canvas>
+                    </div>
+
+                    <p class="text-lg font-light mb-20 md:mb-28 pt-6">
+                        Bilan: quatre morts, trois survivants et un traumatisme sur plusieurs générations. Edward Whymper, qui n’entreprendra plus d’ascension à partir de cet accident, se sentira quant à lui «condamné à voir sa joie se changer en désespoir, ses éclats de rire devenir des cris de douleur», peut-on lire dans ses mémoires «Scrambles amongst the Alps». 
+                    </p>
+                </div>
+
+                <!-- SECTION TITLE -->
+                <div class="section-title -mx-4 mb-12 md:mb-20">
+                    <div class="container max-w-2xl h-28 md:h-52 relative">
+                        <img src="img/this/100-ans-ascension-cervin-carte-badge-corde.webp" alt="Illustration du chapitre 4" class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+
+                        
+                    </div>
+                </div>
+                <div class="container max-w-2xl">
+                    <h2 class="text-center leading-none block mb-8 md:mb-16">L'honneur perdu de la famille Taugwalder</h2>
+
+                    <p class="lettrine text-lg font-light mb-6">
+                        Selon ces mêmes carnets, quelques minutes après la chute, le fondateur de l’hôtel Monte Rosa de Zermatt, Alexander Seiler, voit arriver un jeune garçon du village qui court à sa rencontre. D’après l’enfant, une avalanche vient de tomber depuis le Cervin sur le glacier. Le propriétaire de l’établissement n’aura le fin mot de l’histoire qu’au matin, avec le retour des survivants. Il fondra en larmes à l’évocation du drame, avant de courir alerter le village.   
+                    </p>
+
+                    <!-- <p class="text-lg font-light mb-6">
+                        Quelques minutes après la chute, à Zermatt, le fondateur de l’hôtel Monte Rosa, Alexander Seiler, voit arriver un jeune garçon du village qui court à sa rencontre. Selon l’enfant, une avalanche vient de tomber depuis le Cervin sur le glacier. Le propriétaire de l’établissement n’aura le fin mot de l’histoire qu’au matin, avec le retour des survivants. Il fondra en larmes à l’évocation du drame par Edward Whymper, avant de courir alerter le village. 
+                    </p> -->
+
+                    <!-- DECALAGE -->
+                    <div class="container max-w-2xl relative">
+                        
+
+                        <p class="text-lg font-light mb-6 lg:w-3/5 xl:w-4/5">
+                            La nouvelle de l’accident se répand rapidement, jusqu’à faire les gros titres de la presse. Le «Journal de Genève» dégaine le 18 juillet, en reproduisant une lettre qu’il a reçue au sujet de l’évènement. Le média regrette de devoir faire le récit d’une «nouvelle et déplorable catastrophe», juste après avoir conté l’ascension victorieuse. La «Gazette du Valais» embraie deux jours plus tard, soulignant que l’on «peut facilement se figurer la douloureuse impression que ce terrible accident a produite dans la vallée, surtout à Zermatt où, dit-on, on se disposait à faire une ovation aux intrépides voyageurs».
+                        </p> 
+
+                        <figure class="encadre mx-auto mb-6 sm:w-4/5 lg:absolute lg:-right-28 lg:w-80 xl:-right-60 relative top-0">
+                            <img src="img/this/100-ans-ascension-cervin-article-journal-de-geneve-18-juillet-1865.webp" alt="Coupure de presse du Journal de Genève du 18 juillet 1865" class="w-full">
+                            <figcaption class="py-2 text-xs">«Journal de Genève», 18 Juillet 1865.</figcaption>
+                        </figure>
+
+                        <p class="text-lg font-light mb-6 lg:w-3/5 xl:w-4/5">
+                            L’ambassade anglaise à Berne ayant été avertie par le gouvernement valaisan, les journaux britanniques reprennent l’information, qui provoque stupeur et indignation. Après avoir appris la mort de Lord Douglas, dont elle était proche, la reine Victoria songe à interdire l’alpinisme, avant de se raviser. 
+                        </p> 
+                    
+                    </div>
+                    <!-- FIN DECALAGE -->
+
+                    <p class="text-lg font-light mb-6">
+                        Selon le <a href="https://www.sac-cas.ch/fr/les-alpes/la-premiere-ascension-du-cervin-le-14-juillet-1865-10666/" class="underline decoration-2 font-semibold" rel="noopener"></a>Club Alpin Suisse</a>, la presse à scandale s’est également emparée de l’histoire à l’époque, insinuant que la corde aurait été sectionnée par Peter Taugwalder ou par Edward Whymper, pour sauver leur peau.  
+                    </p>
+
+                    <figure class="pt-4 pb-6 -mx-0 lg:-mx-32 xl:-mx-64">
+                        <div class="container">
+                            <div class="w-full">
+                                <img src="img/this/100-ans-ascension-cervin-article-gazette-du-valais-20-juillet-1865.webp" alt="Coupure de presse de la Gazette du Valais, 20 Juillet 1865" class="w-full">
+                                <figcaption class="py-2 text-xs">«Gazette du Valais», 20 Juillet 1865.</figcaption>
+                            </div>
+                        </div>
+                    </figure>
+
+                    
+
+                    <p class="text-lg font-light mb-6">
+                       Le 8 août, le «Times» publie une lettre où Edward Whymper livre sa version de l’accident. Sans charger directement les Taugwalder père et fils, il affirme que la corde qui s’est rompue était la plus faible, destinée à n’être utilisée qu’en cas de secours, et non pas la corde principale, qui maintenait le reste de l’équipe. Tout en soulignant que la chute a bien été déclenchée par un faux pas, l’Anglais relève que l’accident aurait pu être évité si la corde qui s’était rompue avait été aussi forte et tendue que celle qui les retenait, les Taugwalder et lui.  
+                    </p>
+
+                    <figure class="pt-4 pb-6 mx-auto w-8/12">
+                        <div class="container">
+                            <div class="w-full">
+                                <img src="img/this/100-ans-ascension-cervin-article-the-manchester-guardian-22-juillet-1865.webp" alt="Coupure de presse de The Manchester Guardian, 22 Juillet 1865" class="w-full">
+                                <figcaption class="py-2 text-xs">«The Manchester Guardian», 22 Juillet 1865.</figcaption>
+                            </div>
+                        </div>
+                    </figure>
+
+                    <p class="text-lg font-light mb-6">
+                       Dans son récit qui sera publié en 1871, Edward Whymper décrira en outre ses anciens guides comme des êtres cupides, émotifs et paralysés par la terreur durant les heures qui suivirent l’accident. Par contraste, l’auteur se mettra en avant comme un modèle de sang-froid. 
+                    </p>
+
+                    <p class="text-lg font-light mb-6">
+                       Il n’en fallait pas plus pour ébranler durablement l’honneur des Taugwalder, cette famille modeste qui, plus d’un siècle avant les réseaux sociaux, n’avait pas la capacité de partager sa version des faits avec le reste du monde. «Mon ancêtre, Peter Taugwalder, a été brisé par cette catastrophe», raconte aujourd’hui David Taugwalder, descendant direct des deux guides, qui travaille comme responsable communication pour la commune de Zermatt.
+                    </p>
+
+                    <p class="text-lg font-light mb-6">
+                       Peter junior Taugwalder, qui a participé à l’ascension, a mis par écrit ses souvenirs au début du XXe siècle. Mais la version d’Edward Whymper, qui domine encore aujourd’hui, avait déjà eu le temps de s’imprimer dans les esprits. 
+                    </p>
+
+                    <p class="text-lg font-light mb-6">
+                       Rien de concret, pourtant, n’a jamais chargé le père Taugwalder, qui jouissait jusque-là d’une excellente réputation. L’enquête pénale ordonnée immédiatement après le drame par le Conseil d’Etat valaisan conclut que l’accident avait bien été causé par la glissade de Douglas Hadow dans ses chaussures de ville, et personne ne fut inculpé.  
+                    </p>
+
+                    <figure class="pt-4 pb-6 -mx-0 lg:-mx-32 xl:-mx-64">
+                        <div class="container">
+                            <div class="w-full">
+                                <img src="img/this/100-ans-ascension-cervin-tableau-cordage-musee-zermatt.webp" alt="Au mur, de l’humour et de la prévention sur fond acidulé">
+                                <figcaption class="py-2 text-xs">A Zermatt, les visiteurs du Musée du Cervin peuvent découvrir cette “histoire de triomphe et de mort” qui a “fait le tour du monde”, peut-on lire sur le site du musée.</figcaption>
+                            </div>
+                        </div>
+                    </figure>
+
+                    <p class="text-lg font-light mb-6">
+                       Beaucoup plus récemment, en 2005, un fabricant d’équipement de montagne helvète a reproduit la corde et estimé, après un test de résistance, qu’elle n’aurait pas supporté plus de 150 kilos. Avec quatre personnes dans le vide, elle ne pouvait donc que rompre.
+                    </p>
+
+                    <p class="text-lg font-light mb-6">
+                       En 2015, une enquête historique menée par la télévision publique alémanique SRF a même postulé qu’Edward Whymper aurait coupé la corde la plus épaisse lors de l’ascension, pour être le premier à atteindre le sommet. Ceci expliquerait pourquoi la corde de secours, moins solide, a été utilisée lors de la descente.  
+                    </p>
+
+                    <div class="pt-4 pb-6">
+                        <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/1090879599?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="ITW Taugwalder avec ss-titres"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+                    </div>
+                    
+
+                    <p class="text-lg font-light mb-6">
+                       Aujourd’hui encore, les descendants de Peter Taugwalder et de nombreux autres habitants de la région tentent de transmettre une variante de l’histoire où les héros ne sont pas forcément ceux que l’on pensait. Une <a href="https://zermatt.swiss/fr/news/nouvelle-mise-en-scene-the-matterhorn-story" class="underline decoration-2 font-semibold" rel="noopener">pièce de théâtre</a> racontant l’ascension sera à nouveau jouée cet été à 2500 mètres d’altitude, juste sous le Cervin, avec une nouvelle mise en scène.  
+                    </p>
+
+                    <p class="text-lg font-light mb-20 md:mb-28">
+                       Il faut vingt ans pour construire une réputation, cinq minutes pour la ruiner, disait Warren Buffet. Et plus d’un siècle pour la reconstruire, pourrions-nous ajouter. 
+                    </p>
+
+                </div>
+
+                <!-- SECTION TITLE -->
+                <div class="section-title -mx-4 mb-12 md:mb-20">
+                    <div class="container max-w-2xl h-28 md:h-52 relative">
+                        <img src="img/this/100-ans-ascension-cervin-carte-badge-camera.webp" alt="Illustration chapitre 5" class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+
+                        
+                    </div>
+                </div>
+                <div class="container max-w-2xl pb-2">
+                    <h2 class="text-center leading-none block mb-8 md:mb-16">160 ans après,<br>les nouveaux conquérants</h2>
+
+                    <p class="lettrine text-lg font-light mb-6">
+                       C’est un événement qui, depuis, a été éclipsé par d’autres exploits. A l’été 2023, le youtubeur Inès Benazzouz, alias Inoxtag, a gravi le Cervin dans la foulée du Mont-Blanc, une année avant de s’attaquer à l’Everest. 158 ans après la première conquête du Matterhorn, l’ascension du jeune homme, alors âgé de 24 ans, incarne ce que l’alpinisme est devenu aujourd’hui: de discipline élitiste, il s’est transformé en un sport quasi populaire. 
+                    </p> 
+
+                    <div class="container max-w-2xl relative">
+
+                        <p class="text-lg font-light mb-6 md:w-3/5">
+                            Avantage de l’époque: contrairement aux carnets d’Edward Whymper, pas besoin d’attendre la publication d’hypothétiques mémoires pour accéder à l’histoire. Grâce à l’instantanéité de Youtube, on sait que le vidéaste s’est lancé un défi, celui de gravir l’Everest, après une année de préparation. C’est ainsi que le jeune homme a commencé à s’entraîner, avec l’aide de professionnels de l’alpinisme parmi lesquels Mathis Dumas, son guide qui l’accompagnera jusque sur le Toit du monde. 
+                        </p>
+
+                        <!-- <figure class="mb-6 md:absolute top-1/2 md:-translate-y-1/2 left-3/4 md:w-48 md:mb-6">
+                            <iframe class="mx-auto instagram-media instagram-media-rendered" id="instagram-embed-0" src="https://www.instagram.com/reel/DFhberJMErU/embed/?cr=1&amp;v=14&amp;wp=652&amp;rd=https%3A%2F%2Fwww.prod.storytelling.blick.ch&amp;rp=%2Ffr%2F2025%2Ftrois-freres-romands-rois-du-cannabis%2F#%7B%22ci%22%3A0%2C%22os%22%3A509.69999998807907%2C%22ls%22%3A274.59999999403954%2C%22le%22%3A408.69999998807907%7D" allowtransparency="true" allowfullscreen="true" frameborder="0" height="613" data-instgrm-payload-id="instagram-media-payload-0" scrolling="no" style="background: white; max-width: 540px; width: calc(100% - 2px); border-radius: 3px; border: 1px solid rgb(219, 219, 219); box-shadow: none; display: block; min-width: 326px; padding: 0px;"></iframe>
+                        </figure> -->
+
+                        <div style="padding:177.78% 0 0 0;" class="relative md:absolute md:top-1/2 md:-translate-y-1/2 md:left-3/4 md:w-80 mb-6 md:mb-0"><iframe src="https://player.vimeo.com/video/1099677027?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="EXPLAINERSTUDIO_AJM-CERVIN_MASTER" class=""></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+
+                        <p class="text-lg font-light mb-6 md:w-3/5">
+                        La vidéo qui relate l’ascension du Mont Blanc, puis du Cervin par Inoxtag se trouve facilement en ligne. Après avoir atteint le premier sommet puis être redescendu en parapente, le youtubeur explique qu’il va s’attaquer à «une vraie montagne d’alpiniste». Sur fond de musique dramatique, les dangers du Matterhorn sont soulignés par le conteur, avec référence à l’histoire.
+                        </p>
+
+                    </div>
+
+                    <p class="text-lg font-light mb-8 md:mb-12">
+                       Tout, dans le film, est basé sur l’exploit personnel, le dépassement de soi, et les risques encourus par l’alpiniste en herbe, qui n’a commencé à s’entraîner que trois mois auparavant. «Y’a un mec qui est mort ici, sa mère!», s’exclame le jeune homme devant une plaque commémorative arrimée à un rocher, avant de préciser: «C’est le plus dur truc que j’ai fait de ma life.» 
+                    </p>
+
+                    <span class="block font-sans font-semibold border-t-4 border-black text-custom-xl antialiased pt-5  mb-6 md:mb-12">
+                        <span class="block mb-1.5">Mortalité parmi l’élite de l’alpinisme franco-britannique</span>
+                        <span class="block text-xs opacity-50 font-normal">Source: <i><a noopener href="https://theses.fr/2017LYSEN050" target="_blank" class="underline font-semibold decoration-2">Les sommets de l'excellence</a></i> par Delphine Moraldo</span>
+                    </span>
+
+                    <figure class="relative mortalite mb-12">
+                        <img src="img/this/100-ans-ascension-cervin-mortalite-bg.webp" alt="Illustration du Cervin en fond d'un graphique sur la mortalité" class="mortalite-bg absolute">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="673.525" height="442.791" viewBox="0 0 673.525 442.791" class=" relative w-full h-auto">
+                            <g id="mortalite" transform="translate(-477 -23508.561)">
+                                <path id="Tracé_3508" data-name="Tracé 3508" d="M-808,17478.146h672" transform="translate(1285 6404.353)" fill="none" stroke="#654219" stroke-width="1" stroke-dasharray="6" opacity="0.391"/>
+                                <path id="Tracé_3509" data-name="Tracé 3509" d="M-808,17478.146h672" transform="translate(1285 6365.354)" fill="none" stroke="#654219" stroke-width="1" stroke-dasharray="6" opacity="0.391"/>
+                                <path id="Tracé_3510" data-name="Tracé 3510" d="M-808,17478.146h672" transform="translate(1285 6325.354)" fill="none" stroke="#654219" stroke-width="1" stroke-dasharray="6" opacity="0.391"/>
+                                <path id="Tracé_3511" data-name="Tracé 3511" d="M-808,17478.146h672" transform="translate(1285 6285.354)" fill="none" stroke="#654219" stroke-width="1" stroke-dasharray="6" opacity="0.391"/>
+                                <path id="Tracé_3512" data-name="Tracé 3512" d="M-808,17478.146h672" transform="translate(1285 6245.353)" fill="none" stroke="#654219" stroke-width="1" stroke-dasharray="6" opacity="0.391"/>
+                                <path id="Tracé_3513" data-name="Tracé 3513" d="M-808,17478.146h672" transform="translate(1285 6205.354)" fill="none" stroke="#654219" stroke-width="1" stroke-dasharray="6" opacity="0.391"/>
+                                <path id="Tracé_3514" data-name="Tracé 3514" d="M-808,17478.146h672" transform="translate(1285 6165.353)" fill="none" stroke="#654219" stroke-width="1" stroke-dasharray="6" opacity="0.391"/>
+                                <path id="Tracé_3515" data-name="Tracé 3515" d="M-808,17478.146h672" transform="translate(1285 6125.354)" fill="none" stroke="#654219" stroke-width="1" stroke-dasharray="6" opacity="0.391"/>
+                                <path id="Tracé_3516" data-name="Tracé 3516" d="M-808,17478.146h672" transform="translate(1285 6085.354)" fill="none" stroke="#654219" stroke-width="1" stroke-dasharray="6" opacity="0.391"/>
+                                <path id="Tracé_3517" data-name="Tracé 3517" d="M-808,17478.146h672" transform="translate(1285.5 6046.354)" fill="none" stroke="#654219" stroke-width="1" stroke-dasharray="6" opacity="0.391"/>
+                                <path id="Tracé_3507" data-name="Tracé 3507" d="M-138.475,17524.756h-672" transform="translate(1289 6397.744)" fill="none" stroke="#000" stroke-width="1"/>
+                                <path id="Tracé_3522" data-name="Tracé 3522" d="M.208-9.92v-1.36H3.44V0H1.9V-9.92ZM5.5-5.712a8.384,8.384,0,0,0,.9,4.24A3.3,3.3,0,0,0,9.5.048a3.323,3.323,0,0,0,3.112-1.52,8.323,8.323,0,0,0,.9-4.24,8.247,8.247,0,0,0-.9-4.208A3.323,3.323,0,0,0,9.5-11.44,3.309,3.309,0,0,0,6.4-9.928,8.3,8.3,0,0,0,5.5-5.712Zm6.576,0a11.385,11.385,0,0,1-.2,2.328,2.92,2.92,0,0,1-.76,1.5,2.188,2.188,0,0,1-1.616.56,2.165,2.165,0,0,1-1.6-.56,2.92,2.92,0,0,1-.76-1.5,11.385,11.385,0,0,1-.2-2.328,11.17,11.17,0,0,1,.2-2.3A2.867,2.867,0,0,1,7.9-9.5a2.184,2.184,0,0,1,1.6-.552A2.207,2.207,0,0,1,11.12-9.5a2.867,2.867,0,0,1,.76,1.48A11.17,11.17,0,0,1,12.08-5.712Zm5.2-5.728a2.3,2.3,0,0,1,1.672.648,2.294,2.294,0,0,1,.664,1.72A2.282,2.282,0,0,1,18.96-7.36a2.306,2.306,0,0,1-1.68.64,2.306,2.306,0,0,1-1.68-.64,2.282,2.282,0,0,1-.656-1.712,2.309,2.309,0,0,1,.656-1.72A2.29,2.29,0,0,1,17.28-11.44Zm6.368.144L17.168,0h-1.44l6.48-11.3Zm-7.68,2.224a1.5,1.5,0,0,0,.36,1.04,1.2,1.2,0,0,0,.936.4,1.244,1.244,0,0,0,.96-.4,1.476,1.476,0,0,0,.368-1.04,1.476,1.476,0,0,0-.368-1.04,1.244,1.244,0,0,0-.96-.4,1.2,1.2,0,0,0-.936.4A1.5,1.5,0,0,0,15.968-9.072Zm6.144,4.5a2.278,2.278,0,0,1,1.672.64,2.3,2.3,0,0,1,.648,1.712A2.325,2.325,0,0,1,23.784-.5a2.263,2.263,0,0,1-1.672.648A2.3,2.3,0,0,1,20.44-.5a2.294,2.294,0,0,1-.664-1.72,2.282,2.282,0,0,1,.656-1.712A2.306,2.306,0,0,1,22.112-4.576ZM20.8-2.224a1.5,1.5,0,0,0,.36,1.04,1.219,1.219,0,0,0,.952.4,1.2,1.2,0,0,0,.936-.4,1.5,1.5,0,0,0,.36-1.04,1.5,1.5,0,0,0-.36-1.04,1.2,1.2,0,0,0-.936-.4,1.219,1.219,0,0,0-.952.4A1.5,1.5,0,0,0,20.8-2.224Z" transform="translate(477 23878)" opacity="0.387"/>
+                                <path id="mortalite-title-1" d="M-45.544-4.192V0H-47.8V-11.3h4.112a4.24,4.24,0,0,1,3.016.96,3.416,3.416,0,0,1,1.016,2.608A3.323,3.323,0,0,1-40.7-5.152a4.261,4.261,0,0,1-2.984.96ZM-43.928-6q1.984,0,1.984-1.728a1.719,1.719,0,0,0-.464-1.3,2.14,2.14,0,0,0-1.52-.448h-1.616V-6Zm8-1.168A3.708,3.708,0,0,1-34.616-8.5a3.485,3.485,0,0,1,1.824-.488v2.416h-.656q-2.48,0-2.48,2.3V0h-2.256V-8.864h2.256Zm12.72,2.4a4.271,4.271,0,0,1-.08.768h-6.5a2.443,2.443,0,0,0,.64,1.744,2.059,2.059,0,0,0,1.472.56,2.136,2.136,0,0,0,1.3-.384A1.7,1.7,0,0,0-25.7-3.12h2.384a3.814,3.814,0,0,1-.752,1.664A3.93,3.93,0,0,1-25.552-.3,4.747,4.747,0,0,1-27.56.112a4.718,4.718,0,0,1-2.3-.552,3.88,3.88,0,0,1-1.568-1.576,4.96,4.96,0,0,1-.56-2.416,5.007,5.007,0,0,1,.56-2.424,3.817,3.817,0,0,1,1.568-1.576,4.774,4.774,0,0,1,2.3-.544,4.67,4.67,0,0,1,2.3.544,3.834,3.834,0,0,1,1.52,1.5A4.342,4.342,0,0,1-23.208-4.768Zm-2.272-.224a1.988,1.988,0,0,0-.568-1.648A2.165,2.165,0,0,0-27.56-7.2a2.216,2.216,0,0,0-1.536.56,2.292,2.292,0,0,0-.688,1.648Zm.3-6.272-3.68,1.728v-1.536l3.68-1.92Zm7.552,2.288a4.386,4.386,0,0,1,2.856.928A4.054,4.054,0,0,1-13.336-5.52H-15.72a1.841,1.841,0,0,0-.656-1.112,2.015,2.015,0,0,0-1.3-.408,1.933,1.933,0,0,0-1.5.664,2.809,2.809,0,0,0-.6,1.944,2.809,2.809,0,0,0,.6,1.944,1.933,1.933,0,0,0,1.5.664,2.015,2.015,0,0,0,1.3-.408,1.841,1.841,0,0,0,.656-1.112h2.384A4.054,4.054,0,0,1-14.768-.816a4.386,4.386,0,0,1-2.856.928,4.718,4.718,0,0,1-2.3-.552A3.88,3.88,0,0,1-21.5-2.016a4.96,4.96,0,0,1-.56-2.416,5.007,5.007,0,0,1,.56-2.424,3.817,3.817,0,0,1,1.568-1.576A4.774,4.774,0,0,1-17.624-8.976Zm14.368.112V0H-5.512V-1.792a2.824,2.824,0,0,1-1.16,1.4,3.448,3.448,0,0,1-1.864.5A3.139,3.139,0,0,1-10.984-.9,4.047,4.047,0,0,1-11.9-3.712V-8.864h2.24v4.9a2.315,2.315,0,0,0,.544,1.64,1.914,1.914,0,0,0,1.472.584,2.009,2.009,0,0,0,1.552-.624A2.549,2.549,0,0,0-5.512-4.16v-4.7Zm4.3,1.7A3.708,3.708,0,0,1,2.36-8.5a3.485,3.485,0,0,1,1.824-.488v2.416H3.528q-2.48,0-2.48,2.3V0H-1.208V-8.864H1.048Zm7.44-1.808a3.909,3.909,0,0,1,2.592.816A3.534,3.534,0,0,1,12.3-5.984H10.184a1.756,1.756,0,0,0-.576-1.024A1.732,1.732,0,0,0,8.44-7.392a1.342,1.342,0,0,0-.9.272.916.916,0,0,0-.32.736.748.748,0,0,0,.256.592,1.844,1.844,0,0,0,.64.352q.384.128,1.1.3a11.353,11.353,0,0,1,1.64.472,2.714,2.714,0,0,1,1.088.784,2.161,2.161,0,0,1,.456,1.448,2.237,2.237,0,0,1-.888,1.84,3.745,3.745,0,0,1-2.392.7A4.52,4.52,0,0,1,6.36-.664,3.262,3.262,0,0,1,5.1-2.88h2.16a1.46,1.46,0,0,0,.576,1.032,2.089,2.089,0,0,0,1.3.376,1.254,1.254,0,0,0,.88-.28.944.944,0,0,0,.3-.728.8.8,0,0,0-.264-.624,1.782,1.782,0,0,0-.656-.368Q9-3.6,8.28-3.776a12.534,12.534,0,0,1-1.608-.456,2.567,2.567,0,0,1-1.056-.744,2.09,2.09,0,0,1-.44-1.408,2.305,2.305,0,0,1,.88-1.872A3.735,3.735,0,0,1,8.488-8.976ZM22.424-4.768a4.271,4.271,0,0,1-.08.768h-6.5a2.443,2.443,0,0,0,.64,1.744,2.059,2.059,0,0,0,1.472.56,2.136,2.136,0,0,0,1.3-.384,1.7,1.7,0,0,0,.664-1.04h2.384a3.814,3.814,0,0,1-.752,1.664A3.93,3.93,0,0,1,20.08-.3a4.747,4.747,0,0,1-2.008.416,4.718,4.718,0,0,1-2.3-.552A3.88,3.88,0,0,1,14.2-2.016a4.96,4.96,0,0,1-.56-2.416,5.007,5.007,0,0,1,.56-2.424,3.817,3.817,0,0,1,1.568-1.576,4.774,4.774,0,0,1,2.3-.544,4.67,4.67,0,0,1,2.3.544,3.834,3.834,0,0,1,1.52,1.5A4.342,4.342,0,0,1,22.424-4.768Zm-2.272-.224a1.988,1.988,0,0,0-.568-1.648,2.165,2.165,0,0,0-1.512-.56,2.216,2.216,0,0,0-1.536.56,2.292,2.292,0,0,0-.688,1.648ZM32.5-8.864V0H30.248V-1.792a2.824,2.824,0,0,1-1.16,1.4,3.448,3.448,0,0,1-1.864.5A3.139,3.139,0,0,1,24.776-.9a4.047,4.047,0,0,1-.912-2.816V-8.864H26.1v4.9a2.315,2.315,0,0,0,.544,1.64,1.914,1.914,0,0,0,1.472.584,2.009,2.009,0,0,0,1.552-.624,2.549,2.549,0,0,0,.576-1.792v-4.7Zm4.3,1.7A3.708,3.708,0,0,1,38.12-8.5a3.485,3.485,0,0,1,1.824-.488v2.416h-.656q-2.48,0-2.48,2.3V0H34.552V-8.864h2.256Zm7.44-1.808a3.909,3.909,0,0,1,2.592.816,3.534,3.534,0,0,1,1.216,2.176H45.944a1.756,1.756,0,0,0-.576-1.024A1.732,1.732,0,0,0,44.2-7.392a1.342,1.342,0,0,0-.9.272.916.916,0,0,0-.32.736.748.748,0,0,0,.256.592,1.844,1.844,0,0,0,.64.352q.384.128,1.1.3a11.353,11.353,0,0,1,1.64.472,2.714,2.714,0,0,1,1.088.784,2.161,2.161,0,0,1,.456,1.448,2.237,2.237,0,0,1-.888,1.84,3.745,3.745,0,0,1-2.392.7A4.52,4.52,0,0,1,42.12-.664,3.262,3.262,0,0,1,40.856-2.88h2.16a1.46,1.46,0,0,0,.576,1.032,2.089,2.089,0,0,0,1.3.376,1.254,1.254,0,0,0,.88-.28.944.944,0,0,0,.3-.728.8.8,0,0,0-.264-.624,1.782,1.782,0,0,0-.656-.368q-.392-.128-1.112-.3a12.534,12.534,0,0,1-1.608-.456,2.567,2.567,0,0,1-1.056-.744,2.09,2.09,0,0,1-.44-1.408,2.305,2.305,0,0,1,.88-1.872A3.735,3.735,0,0,1,44.248-8.976Z" transform="translate(604 23947)" fill="#806145"/>
+                                <path id="mortalite-title-2" d="M-75.376-9.5v2.928h4v1.728h-4v3.04h4.48V0h-6.736V-11.3H-70.9V-9.5Zm11.424.512A3.139,3.139,0,0,1-61.5-7.984a4.072,4.072,0,0,1,.912,2.832V0h-2.24V-4.9a2.315,2.315,0,0,0-.544-1.64,1.934,1.934,0,0,0-1.488-.584A1.99,1.99,0,0,0-66.4-6.5,2.549,2.549,0,0,0-66.976-4.7V0h-2.256V-8.864h2.256v1.776a2.824,2.824,0,0,1,1.16-1.4A3.448,3.448,0,0,1-63.952-8.992Zm10.08,7.056V0h-1.184a3.276,3.276,0,0,1-2.28-.72,3.117,3.117,0,0,1-.792-2.4V-6.96H-59.36v-1.9h1.232v-2.192h2.256v2.192h1.984v1.9h-1.984v3.872a1.249,1.249,0,0,0,.256.9,1.2,1.2,0,0,0,.864.256ZM-50-7.168A3.708,3.708,0,0,1-48.688-8.5a3.485,3.485,0,0,1,1.824-.488v2.416h-.656q-2.48,0-2.48,2.3V0h-2.256V-8.864H-50Zm12.72,2.4A4.271,4.271,0,0,1-37.36-4h-6.5a2.443,2.443,0,0,0,.64,1.744,2.059,2.059,0,0,0,1.472.56,2.136,2.136,0,0,0,1.3-.384,1.7,1.7,0,0,0,.664-1.04h2.384a3.814,3.814,0,0,1-.752,1.664A3.93,3.93,0,0,1-39.624-.3a4.747,4.747,0,0,1-2.008.416,4.718,4.718,0,0,1-2.3-.552A3.88,3.88,0,0,1-45.5-2.016a4.96,4.96,0,0,1-.56-2.416,5.007,5.007,0,0,1,.56-2.424,3.817,3.817,0,0,1,1.568-1.576,4.774,4.774,0,0,1,2.3-.544,4.67,4.67,0,0,1,2.3.544,3.834,3.834,0,0,1,1.52,1.5A4.342,4.342,0,0,1-37.28-4.768Zm-2.272-.224A1.988,1.988,0,0,0-40.12-6.64a2.165,2.165,0,0,0-1.512-.56,2.216,2.216,0,0,0-1.536.56,2.292,2.292,0,0,0-.688,1.648Zm9.616-1.648v1.872h-6.8V-6.64Zm6.1-2.336a3.368,3.368,0,0,1,1.912.528,2.981,2.981,0,0,1,1.144,1.424V-11.84h2.24V0h-2.24V-1.856A3.026,3.026,0,0,1-21.928-.424,3.33,3.33,0,0,1-23.84.112a3.808,3.808,0,0,1-2.016-.544,3.675,3.675,0,0,1-1.4-1.576,5.465,5.465,0,0,1-.5-2.424,5.465,5.465,0,0,1,.5-2.424,3.675,3.675,0,0,1,1.4-1.576A3.808,3.808,0,0,1-23.84-8.976Zm.7,1.968a2.207,2.207,0,0,0-1.7.688,2.664,2.664,0,0,0-.64,1.888,2.634,2.634,0,0,0,.64,1.88,2.22,2.22,0,0,0,1.7.68,2.232,2.232,0,0,0,1.688-.7,2.588,2.588,0,0,0,.664-1.864,2.611,2.611,0,0,0-.664-1.88A2.232,2.232,0,0,0-23.136-7.008ZM-8.16-4.768A4.271,4.271,0,0,1-8.24-4h-6.5a2.443,2.443,0,0,0,.64,1.744,2.059,2.059,0,0,0,1.472.56,2.136,2.136,0,0,0,1.3-.384,1.7,1.7,0,0,0,.664-1.04h2.384a3.814,3.814,0,0,1-.752,1.664A3.93,3.93,0,0,1-10.5-.3a4.747,4.747,0,0,1-2.008.416,4.718,4.718,0,0,1-2.3-.552,3.88,3.88,0,0,1-1.568-1.576,4.96,4.96,0,0,1-.56-2.416,5.007,5.007,0,0,1,.56-2.424,3.817,3.817,0,0,1,1.568-1.576,4.774,4.774,0,0,1,2.3-.544,4.67,4.67,0,0,1,2.3.544,3.834,3.834,0,0,1,1.52,1.5A4.342,4.342,0,0,1-8.16-4.768Zm-2.272-.224A1.988,1.988,0,0,0-11-6.64a2.165,2.165,0,0,0-1.512-.56,2.216,2.216,0,0,0-1.536.56,2.292,2.292,0,0,0-.688,1.648ZM1.92-8.864V0H-.336V-1.792A2.824,2.824,0,0,1-1.5-.392a3.448,3.448,0,0,1-1.864.5A3.139,3.139,0,0,1-5.808-.9,4.047,4.047,0,0,1-6.72-3.712V-8.864h2.24v4.9a2.315,2.315,0,0,0,.544,1.64,1.914,1.914,0,0,0,1.472.584A2.009,2.009,0,0,0-.912-2.368,2.549,2.549,0,0,0-.336-4.16v-4.7ZM9.36,0,7.344-2.848,5.648,0H3.168L6.1-4.624,3.1-8.864H5.632L7.6-6.064l1.7-2.8h2.48L8.8-4.368,11.888,0ZM20-8.976a3.406,3.406,0,0,1,1.92.528,2.876,2.876,0,0,1,1.136,1.424v-1.84H25.3v8.9a4.92,4.92,0,0,1-.488,2.216,3.6,3.6,0,0,1-1.456,1.544,4.608,4.608,0,0,1-2.344.56,4.948,4.948,0,0,1-3.1-.912A3.773,3.773,0,0,1,16.464.96h2.224a1.834,1.834,0,0,0,.744,1.048,2.464,2.464,0,0,0,1.416.376,2.213,2.213,0,0,0,1.6-.584A2.345,2.345,0,0,0,23.056.032V-1.856A2.918,2.918,0,0,1,21.92-.424,3.369,3.369,0,0,1,20,.112a3.808,3.808,0,0,1-2.016-.544,3.675,3.675,0,0,1-1.4-1.576,5.465,5.465,0,0,1-.5-2.424,5.465,5.465,0,0,1,.5-2.424,3.675,3.675,0,0,1,1.4-1.576A3.808,3.808,0,0,1,20-8.976Zm.7,1.968a2.207,2.207,0,0,0-1.7.688,2.664,2.664,0,0,0-.64,1.888,2.634,2.634,0,0,0,.64,1.88,2.22,2.22,0,0,0,1.7.68,2.232,2.232,0,0,0,1.688-.7,2.588,2.588,0,0,0,.664-1.864,2.611,2.611,0,0,0-.664-1.88A2.232,2.232,0,0,0,20.7-7.008Zm15.12-1.856V0H33.568V-1.792a2.824,2.824,0,0,1-1.16,1.4,3.448,3.448,0,0,1-1.864.5A3.139,3.139,0,0,1,28.1-.9a4.047,4.047,0,0,1-.912-2.816V-8.864h2.24v4.9a2.315,2.315,0,0,0,.544,1.64,1.914,1.914,0,0,0,1.472.584,2.009,2.009,0,0,0,1.552-.624,2.549,2.549,0,0,0,.576-1.792v-4.7Zm10.384,4.1a4.271,4.271,0,0,1-.08.768h-6.5a2.443,2.443,0,0,0,.64,1.744,2.059,2.059,0,0,0,1.472.56,2.136,2.136,0,0,0,1.3-.384,1.7,1.7,0,0,0,.664-1.04H46.1a3.814,3.814,0,0,1-.752,1.664A3.93,3.93,0,0,1,43.864-.3a4.747,4.747,0,0,1-2.008.416,4.718,4.718,0,0,1-2.3-.552,3.88,3.88,0,0,1-1.568-1.576,4.96,4.96,0,0,1-.56-2.416,5.007,5.007,0,0,1,.56-2.424,3.817,3.817,0,0,1,1.568-1.576,4.774,4.774,0,0,1,2.3-.544,4.67,4.67,0,0,1,2.3.544,3.834,3.834,0,0,1,1.52,1.5A4.342,4.342,0,0,1,46.208-4.768Zm-2.272-.224a1.988,1.988,0,0,0-.568-1.648,2.165,2.165,0,0,0-1.512-.56,2.216,2.216,0,0,0-1.536.56,2.292,2.292,0,0,0-.688,1.648Zm6.128-2.176A3.708,3.708,0,0,1,51.376-8.5,3.485,3.485,0,0,1,53.2-8.992v2.416h-.656q-2.48,0-2.48,2.3V0H47.808V-8.864h2.256Zm6.64,0A3.708,3.708,0,0,1,58.016-8.5a3.485,3.485,0,0,1,1.824-.488v2.416h-.656q-2.48,0-2.48,2.3V0H54.448V-8.864H56.7Zm12.72,2.4a4.271,4.271,0,0,1-.08.768h-6.5a2.443,2.443,0,0,0,.64,1.744,2.059,2.059,0,0,0,1.472.56,2.136,2.136,0,0,0,1.3-.384,1.7,1.7,0,0,0,.664-1.04h2.384a3.814,3.814,0,0,1-.752,1.664A3.93,3.93,0,0,1,67.08-.3a4.747,4.747,0,0,1-2.008.416,4.718,4.718,0,0,1-2.3-.552A3.88,3.88,0,0,1,61.2-2.016a4.96,4.96,0,0,1-.56-2.416,5.007,5.007,0,0,1,.56-2.424,3.817,3.817,0,0,1,1.568-1.576,4.774,4.774,0,0,1,2.3-.544,4.67,4.67,0,0,1,2.3.544,3.834,3.834,0,0,1,1.52,1.5A4.342,4.342,0,0,1,69.424-4.768Zm-2.272-.224a1.988,1.988,0,0,0-.568-1.648,2.165,2.165,0,0,0-1.512-.56,2.216,2.216,0,0,0-1.536.56,2.292,2.292,0,0,0-.688,1.648ZM74.08-8.976a3.909,3.909,0,0,1,2.592.816,3.534,3.534,0,0,1,1.216,2.176H75.776A1.756,1.756,0,0,0,75.2-7.008a1.732,1.732,0,0,0-1.168-.384,1.342,1.342,0,0,0-.9.272.916.916,0,0,0-.32.736.748.748,0,0,0,.256.592,1.844,1.844,0,0,0,.64.352q.384.128,1.1.3a11.354,11.354,0,0,1,1.64.472,2.714,2.714,0,0,1,1.088.784A2.161,2.161,0,0,1,78-2.432a2.237,2.237,0,0,1-.888,1.84,3.745,3.745,0,0,1-2.392.7,4.52,4.52,0,0,1-2.768-.776A3.262,3.262,0,0,1,70.688-2.88h2.16a1.46,1.46,0,0,0,.576,1.032,2.089,2.089,0,0,0,1.3.376,1.254,1.254,0,0,0,.88-.28.944.944,0,0,0,.3-.728A.8.8,0,0,0,75.64-3.1a1.782,1.782,0,0,0-.656-.368q-.392-.128-1.112-.3a12.534,12.534,0,0,1-1.608-.456,2.567,2.567,0,0,1-1.056-.744,2.09,2.09,0,0,1-.44-1.408,2.305,2.305,0,0,1,.88-1.872A3.735,3.735,0,0,1,74.08-8.976Z" transform="translate(760 23947)" fill="#806145"/>
+                                <path id="mortalite-title-3" d="M-42.752-9.184V-11.3h4.064V0h-2.368V-9.184Zm8.224,5.824Q-34.272-1.7-32.8-1.7a1.682,1.682,0,0,0,1.616-.984,6.73,6.73,0,0,0,.432-3.08,2.242,2.242,0,0,1-1,1.224,3.255,3.255,0,0,1-1.736.456,3.375,3.375,0,0,1-2.568-.984,3.892,3.892,0,0,1-.936-2.792,4.261,4.261,0,0,1,.448-1.976A3.238,3.238,0,0,1-35.208-11.2a4.352,4.352,0,0,1,2.152-.5,3.669,3.669,0,0,1,3.392,1.5,7.866,7.866,0,0,1,.928,4.152,9.088,9.088,0,0,1-.936,4.592A3.352,3.352,0,0,1-32.8.112a4.093,4.093,0,0,1-2.008-.464,3.3,3.3,0,0,1-1.3-1.256A4.157,4.157,0,0,1-36.64-3.36ZM-30.944-7.7a2.143,2.143,0,0,0-.52-1.48,1.939,1.939,0,0,0-1.528-.584,1.859,1.859,0,0,0-1.376.512,1.925,1.925,0,0,0-.512,1.424,2,2,0,0,0,.52,1.48,1.892,1.892,0,0,0,1.4.52,2.175,2.175,0,0,0,1.416-.488A1.682,1.682,0,0,0-30.944-7.7Zm3.568,5.424V-4.144l5.408-7.28h2.416v7.2h1.472v1.952h-1.472V0h-2.272V-2.272Zm5.728-6.512-3.424,4.56h3.424Zm4.832,3.04Q-16.816,0-12.5,0A3.647,3.647,0,0,0-9.2-1.536,7.6,7.6,0,0,0-8.192-5.744,7.569,7.569,0,0,0-9.2-9.936a3.647,3.647,0,0,0-3.3-1.536Q-16.816-11.472-16.816-5.744Zm6.4,0a6.7,6.7,0,0,1-.424,2.68,1.639,1.639,0,0,1-1.656.936,1.652,1.652,0,0,1-1.672-.936,6.7,6.7,0,0,1-.424-2.68,6.65,6.65,0,0,1,.424-2.664A1.652,1.652,0,0,1-12.5-9.344a1.639,1.639,0,0,1,1.656.936A6.65,6.65,0,0,1-10.416-5.744ZM2.8-6.64v1.872H-4V-6.64ZM8.08-9.184V-11.3h4.064V0H9.776V-9.184ZM16.3-3.36Q16.56-1.7,18.032-1.7a1.682,1.682,0,0,0,1.616-.984,6.73,6.73,0,0,0,.432-3.08,2.242,2.242,0,0,1-1,1.224,3.255,3.255,0,0,1-1.736.456,3.375,3.375,0,0,1-2.568-.984,3.892,3.892,0,0,1-.936-2.792,4.261,4.261,0,0,1,.448-1.976A3.238,3.238,0,0,1,15.624-11.2a4.352,4.352,0,0,1,2.152-.5,3.669,3.669,0,0,1,3.392,1.5A7.866,7.866,0,0,1,22.1-6.048a9.088,9.088,0,0,1-.936,4.592A3.352,3.352,0,0,1,18.032.112a4.093,4.093,0,0,1-2.008-.464,3.3,3.3,0,0,1-1.3-1.256,4.157,4.157,0,0,1-.536-1.752ZM19.888-7.7a2.143,2.143,0,0,0-.52-1.48A1.939,1.939,0,0,0,17.84-9.76a1.859,1.859,0,0,0-1.376.512,1.925,1.925,0,0,0-.512,1.424,2,2,0,0,0,.52,1.48,1.892,1.892,0,0,0,1.4.52,2.175,2.175,0,0,0,1.416-.488A1.682,1.682,0,0,0,19.888-7.7Zm9.68-.528q-.256-1.664-1.7-1.664A1.715,1.715,0,0,0,26.24-8.9a6.553,6.553,0,0,0-.448,3.08,2.242,2.242,0,0,1,1-1.224A3.255,3.255,0,0,1,28.528-7.5,3.375,3.375,0,0,1,31.1-6.52a3.892,3.892,0,0,1,.936,2.792,4.248,4.248,0,0,1-.448,1.984,3.249,3.249,0,0,1-1.336,1.36,4.352,4.352,0,0,1-2.152.5A3.64,3.64,0,0,1,24.7-1.416a8.116,8.116,0,0,1-.928-4.216,8.319,8.319,0,0,1,1-4.576,3.618,3.618,0,0,1,3.24-1.488,3.416,3.416,0,0,1,2.624.976,4.03,4.03,0,0,1,1.04,2.5ZM25.984-3.888a2.143,2.143,0,0,0,.52,1.48,1.939,1.939,0,0,0,1.528.584,1.859,1.859,0,0,0,1.376-.512A1.925,1.925,0,0,0,29.92-3.76a1.974,1.974,0,0,0-.52-1.472A1.909,1.909,0,0,0,28-5.744a2.19,2.19,0,0,0-1.424.48A1.669,1.669,0,0,0,25.984-3.888Zm7.6-1.856Q33.584,0,37.9,0a3.647,3.647,0,0,0,3.3-1.536,7.6,7.6,0,0,0,1.008-4.208A7.569,7.569,0,0,0,41.2-9.936a3.647,3.647,0,0,0-3.3-1.536Q33.584-11.472,33.584-5.744Zm6.4,0a6.7,6.7,0,0,1-.424,2.68,1.639,1.639,0,0,1-1.656.936,1.652,1.652,0,0,1-1.672-.936,6.7,6.7,0,0,1-.424-2.68,6.65,6.65,0,0,1,.424-2.664A1.652,1.652,0,0,1,37.9-9.344a1.639,1.639,0,0,1,1.656.936A6.65,6.65,0,0,1,39.984-5.744Z" transform="translate(923 23947)" fill="#806145"/>
+                                <path id="mortalite-title-4" d="M-51.464-9.184V-11.3H-47.4V0h-2.368V-9.184ZM-43.24-3.36Q-42.984-1.7-41.512-1.7A1.682,1.682,0,0,0-39.9-2.68a6.73,6.73,0,0,0,.432-3.08,2.242,2.242,0,0,1-1,1.224A3.255,3.255,0,0,1-42.2-4.08a3.375,3.375,0,0,1-2.568-.984A3.892,3.892,0,0,1-45.7-7.856a4.261,4.261,0,0,1,.448-1.976A3.238,3.238,0,0,1-43.92-11.2a4.352,4.352,0,0,1,2.152-.5,3.669,3.669,0,0,1,3.392,1.5,7.866,7.866,0,0,1,.928,4.152,9.088,9.088,0,0,1-.936,4.592A3.352,3.352,0,0,1-41.512.112,4.093,4.093,0,0,1-43.52-.352a3.3,3.3,0,0,1-1.3-1.256,4.157,4.157,0,0,1-.536-1.752ZM-39.656-7.7a2.143,2.143,0,0,0-.52-1.48A1.939,1.939,0,0,0-41.7-9.76a1.859,1.859,0,0,0-1.376.512,1.925,1.925,0,0,0-.512,1.424,2,2,0,0,0,.52,1.48,1.892,1.892,0,0,0,1.4.52,2.175,2.175,0,0,0,1.416-.488A1.682,1.682,0,0,0-39.656-7.7Zm10.72-2.016L-33.064,0H-35.4l4.176-9.456h-5.232v-1.936h7.52Zm1.1,3.968Q-27.832,0-23.512,0a3.647,3.647,0,0,0,3.3-1.536,7.6,7.6,0,0,0,1.008-4.208,7.569,7.569,0,0,0-1.008-4.192,3.647,3.647,0,0,0-3.3-1.536Q-27.832-11.472-27.832-5.744Zm6.4,0a6.7,6.7,0,0,1-.424,2.68,1.639,1.639,0,0,1-1.656.936,1.652,1.652,0,0,1-1.672-.936,6.7,6.7,0,0,1-.424-2.68,6.65,6.65,0,0,1,.424-2.664,1.652,1.652,0,0,1,1.672-.936,1.639,1.639,0,0,1,1.656.936A6.65,6.65,0,0,1-21.432-5.744Zm15.808.976A4.271,4.271,0,0,1-5.7-4h-6.5a2.443,2.443,0,0,0,.64,1.744,2.059,2.059,0,0,0,1.472.56,2.136,2.136,0,0,0,1.3-.384A1.7,1.7,0,0,0-8.12-3.12h2.384a3.814,3.814,0,0,1-.752,1.664A3.93,3.93,0,0,1-7.968-.3,4.747,4.747,0,0,1-9.976.112a4.718,4.718,0,0,1-2.3-.552,3.88,3.88,0,0,1-1.568-1.576,4.96,4.96,0,0,1-.56-2.416,5.007,5.007,0,0,1,.56-2.424A3.817,3.817,0,0,1-12.28-8.432a4.774,4.774,0,0,1,2.3-.544,4.67,4.67,0,0,1,2.3.544,3.834,3.834,0,0,1,1.52,1.5A4.342,4.342,0,0,1-5.624-4.768ZM-7.9-4.992A1.988,1.988,0,0,0-8.464-6.64,2.165,2.165,0,0,0-9.976-7.2a2.216,2.216,0,0,0-1.536.56A2.292,2.292,0,0,0-12.2-4.992ZM.712-1.936V0H-.472a3.276,3.276,0,0,1-2.28-.72,3.117,3.117,0,0,1-.792-2.4V-6.96H-4.776v-1.9h1.232v-2.192h2.256v2.192H.7v1.9H-1.288v3.872a1.249,1.249,0,0,0,.256.9,1.2,1.2,0,0,0,.864.256Zm8.576-7.04a3.406,3.406,0,0,1,1.92.528,2.876,2.876,0,0,1,1.136,1.424v-1.84h2.24V0h-2.24V-1.856A2.918,2.918,0,0,1,11.208-.424a3.369,3.369,0,0,1-1.92.536A3.808,3.808,0,0,1,7.272-.432a3.675,3.675,0,0,1-1.4-1.576,5.465,5.465,0,0,1-.5-2.424,5.465,5.465,0,0,1,.5-2.424,3.675,3.675,0,0,1,1.4-1.576A3.808,3.808,0,0,1,9.288-8.976Zm.7,1.968a2.207,2.207,0,0,0-1.7.688,2.664,2.664,0,0,0-.64,1.888,2.634,2.634,0,0,0,.64,1.88,2.22,2.22,0,0,0,1.7.68,2.232,2.232,0,0,0,1.688-.7,2.588,2.588,0,0,0,.664-1.864,2.611,2.611,0,0,0-.664-1.88A2.232,2.232,0,0,0,9.992-7.008ZM21.928-8.976a3.808,3.808,0,0,1,2.016.544,3.675,3.675,0,0,1,1.4,1.576,5.465,5.465,0,0,1,.5,2.424,5.465,5.465,0,0,1-.5,2.424,3.675,3.675,0,0,1-1.4,1.576,3.808,3.808,0,0,1-2.016.544,3.33,3.33,0,0,1-1.912-.536,2.932,2.932,0,0,1-1.128-1.432v6.08H16.632V-8.864h2.256v1.84a2.889,2.889,0,0,1,1.128-1.424A3.368,3.368,0,0,1,21.928-8.976Zm-.7,1.968a2.232,2.232,0,0,0-1.688.7,2.611,2.611,0,0,0-.664,1.88,2.588,2.588,0,0,0,.664,1.864,2.232,2.232,0,0,0,1.688.7,2.22,2.22,0,0,0,1.7-.68,2.634,2.634,0,0,0,.64-1.88,2.664,2.664,0,0,0-.64-1.888A2.207,2.207,0,0,0,21.224-7.008Zm8.48-.16A3.708,3.708,0,0,1,31.016-8.5a3.485,3.485,0,0,1,1.824-.488v2.416h-.656q-2.48,0-2.48,2.3V0H27.448V-8.864H29.7Zm12.72,2.4a4.271,4.271,0,0,1-.08.768h-6.5a2.443,2.443,0,0,0,.64,1.744,2.059,2.059,0,0,0,1.472.56,2.136,2.136,0,0,0,1.3-.384,1.7,1.7,0,0,0,.664-1.04h2.384a3.814,3.814,0,0,1-.752,1.664A3.93,3.93,0,0,1,40.08-.3a4.747,4.747,0,0,1-2.008.416,4.718,4.718,0,0,1-2.3-.552A3.88,3.88,0,0,1,34.2-2.016a4.96,4.96,0,0,1-.56-2.416,5.007,5.007,0,0,1,.56-2.424,3.817,3.817,0,0,1,1.568-1.576,4.774,4.774,0,0,1,2.3-.544,4.67,4.67,0,0,1,2.3.544,3.834,3.834,0,0,1,1.52,1.5A4.342,4.342,0,0,1,42.424-4.768Zm-2.272-.224a1.988,1.988,0,0,0-.568-1.648,2.165,2.165,0,0,0-1.512-.56,2.216,2.216,0,0,0-1.536.56,2.292,2.292,0,0,0-.688,1.648Zm-.912-6.08v1.536l-3.68-1.728v-1.728Zm7.84,2.1a3.909,3.909,0,0,1,2.592.816,3.534,3.534,0,0,1,1.216,2.176H48.776A1.756,1.756,0,0,0,48.2-7.008a1.732,1.732,0,0,0-1.168-.384,1.342,1.342,0,0,0-.9.272.916.916,0,0,0-.32.736.748.748,0,0,0,.256.592,1.844,1.844,0,0,0,.64.352q.384.128,1.1.3a11.353,11.353,0,0,1,1.64.472,2.714,2.714,0,0,1,1.088.784A2.161,2.161,0,0,1,51-2.432a2.237,2.237,0,0,1-.888,1.84,3.745,3.745,0,0,1-2.392.7,4.52,4.52,0,0,1-2.768-.776A3.262,3.262,0,0,1,43.688-2.88h2.16a1.46,1.46,0,0,0,.576,1.032,2.089,2.089,0,0,0,1.3.376,1.254,1.254,0,0,0,.88-.28.944.944,0,0,0,.3-.728A.8.8,0,0,0,48.64-3.1a1.782,1.782,0,0,0-.656-.368q-.392-.128-1.112-.3a12.534,12.534,0,0,1-1.608-.456,2.567,2.567,0,0,1-1.056-.744,2.09,2.09,0,0,1-.44-1.408,2.305,2.305,0,0,1,.88-1.872A3.735,3.735,0,0,1,47.08-8.976Z" transform="translate(1082 23947)" fill="#806145"/>
+                                <path id="Tracé_3523" data-name="Tracé 3523" d="M.672-1.12A23.613,23.613,0,0,0,5.024-4.744,5.209,5.209,0,0,0,6.656-8.1,2.329,2.329,0,0,0,6.168-9.64a1.943,1.943,0,0,0-1.576-.584,2.053,2.053,0,0,0-1.7.712,3.314,3.314,0,0,0-.64,1.96H.816a4.208,4.208,0,0,1,1.168-2.9A3.761,3.761,0,0,1,4.7-11.472a3.581,3.581,0,0,1,2.512.848,3.087,3.087,0,0,1,.928,2.4,4.893,4.893,0,0,1-.824,2.6A11.654,11.654,0,0,1,5.256-3.176,16,16,0,0,1,2.7-1.264H8.432v1.2H.672ZM9.984-5.712a8.384,8.384,0,0,0,.9,4.24,3.3,3.3,0,0,0,3.1,1.52A3.323,3.323,0,0,0,17.1-1.472a8.323,8.323,0,0,0,.9-4.24,8.247,8.247,0,0,0-.9-4.208,3.323,3.323,0,0,0-3.112-1.52,3.309,3.309,0,0,0-3.1,1.512A8.3,8.3,0,0,0,9.984-5.712Zm6.576,0a11.385,11.385,0,0,1-.2,2.328,2.92,2.92,0,0,1-.76,1.5,2.188,2.188,0,0,1-1.616.56,2.165,2.165,0,0,1-1.6-.56,2.92,2.92,0,0,1-.76-1.5,11.385,11.385,0,0,1-.2-2.328,11.17,11.17,0,0,1,.2-2.3,2.867,2.867,0,0,1,.76-1.48,2.184,2.184,0,0,1,1.6-.552A2.207,2.207,0,0,1,15.6-9.5a2.867,2.867,0,0,1,.76,1.48A11.17,11.17,0,0,1,16.56-5.712Zm5.2-5.728a2.3,2.3,0,0,1,1.672.648,2.294,2.294,0,0,1,.664,1.72A2.282,2.282,0,0,1,23.44-7.36a2.306,2.306,0,0,1-1.68.64,2.306,2.306,0,0,1-1.68-.64,2.282,2.282,0,0,1-.656-1.712,2.309,2.309,0,0,1,.656-1.72A2.29,2.29,0,0,1,21.76-11.44Zm6.368.144L21.648,0h-1.44l6.48-11.3Zm-7.68,2.224a1.5,1.5,0,0,0,.36,1.04,1.2,1.2,0,0,0,.936.4,1.244,1.244,0,0,0,.96-.4,1.476,1.476,0,0,0,.368-1.04,1.476,1.476,0,0,0-.368-1.04,1.244,1.244,0,0,0-.96-.4,1.2,1.2,0,0,0-.936.4A1.5,1.5,0,0,0,20.448-9.072Zm6.144,4.5a2.278,2.278,0,0,1,1.672.64,2.3,2.3,0,0,1,.648,1.712A2.325,2.325,0,0,1,28.264-.5a2.263,2.263,0,0,1-1.672.648A2.3,2.3,0,0,1,24.92-.5a2.294,2.294,0,0,1-.664-1.72,2.282,2.282,0,0,1,.656-1.712A2.306,2.306,0,0,1,26.592-4.576ZM25.28-2.224a1.5,1.5,0,0,0,.36,1.04,1.219,1.219,0,0,0,.952.4,1.2,1.2,0,0,0,.936-.4,1.5,1.5,0,0,0,.36-1.04,1.5,1.5,0,0,0-.36-1.04,1.2,1.2,0,0,0-.936-.4,1.219,1.219,0,0,0-.952.4A1.5,1.5,0,0,0,25.28-2.224Z" transform="translate(477 23839)" opacity="0.387"/>
+                                <path id="Tracé_3524" data-name="Tracé 3524" d="M4.784-11.584a4.217,4.217,0,0,1,1.872.384A2.731,2.731,0,0,1,7.84-10.144a2.914,2.914,0,0,1,.4,1.52,2.637,2.637,0,0,1-.616,1.776,2.69,2.69,0,0,1-1.8.864v.1A4.259,4.259,0,0,1,7.752-4.9a2.459,2.459,0,0,1,.7,1.856A2.991,2.991,0,0,1,7.52-.768a3.736,3.736,0,0,1-2.672.88,4.253,4.253,0,0,1-2.824-.9A3.838,3.838,0,0,1,.752-3.44h1.44A2.727,2.727,0,0,0,3-1.76a2.522,2.522,0,0,0,1.8.624,2.288,2.288,0,0,0,1.648-.552A1.894,1.894,0,0,0,7.024-3.12,1.815,1.815,0,0,0,6.2-4.728,4.2,4.2,0,0,0,3.856-5.28H3.472V-6.5h.384Q6.8-6.5,6.8-8.464A1.8,1.8,0,0,0,6.256-9.84a2.107,2.107,0,0,0-1.5-.512A2.425,2.425,0,0,0,3.136-9.8a2.34,2.34,0,0,0-.768,1.624H.944a3.559,3.559,0,0,1,1.112-2.5A3.917,3.917,0,0,1,4.784-11.584Zm5.552,5.872a8.384,8.384,0,0,0,.9,4.24,3.3,3.3,0,0,0,3.1,1.52,3.323,3.323,0,0,0,3.112-1.52,8.323,8.323,0,0,0,.9-4.24,8.247,8.247,0,0,0-.9-4.208,3.323,3.323,0,0,0-3.112-1.52,3.309,3.309,0,0,0-3.1,1.512A8.3,8.3,0,0,0,10.336-5.712Zm6.576,0a11.385,11.385,0,0,1-.2,2.328,2.92,2.92,0,0,1-.76,1.5,2.188,2.188,0,0,1-1.616.56,2.165,2.165,0,0,1-1.6-.56,2.92,2.92,0,0,1-.76-1.5,11.385,11.385,0,0,1-.2-2.328,11.17,11.17,0,0,1,.2-2.3,2.867,2.867,0,0,1,.76-1.48,2.184,2.184,0,0,1,1.6-.552,2.207,2.207,0,0,1,1.616.552,2.867,2.867,0,0,1,.76,1.48A11.17,11.17,0,0,1,16.912-5.712Zm5.2-5.728a2.3,2.3,0,0,1,1.672.648,2.294,2.294,0,0,1,.664,1.72,2.282,2.282,0,0,1-.656,1.712,2.306,2.306,0,0,1-1.68.64,2.306,2.306,0,0,1-1.68-.64,2.282,2.282,0,0,1-.656-1.712,2.309,2.309,0,0,1,.656-1.72A2.29,2.29,0,0,1,22.112-11.44Zm6.368.144L22,0H20.56l6.48-11.3ZM20.8-9.072a1.5,1.5,0,0,0,.36,1.04,1.2,1.2,0,0,0,.936.4,1.244,1.244,0,0,0,.96-.4,1.476,1.476,0,0,0,.368-1.04,1.476,1.476,0,0,0-.368-1.04,1.244,1.244,0,0,0-.96-.4,1.2,1.2,0,0,0-.936.4A1.5,1.5,0,0,0,20.8-9.072Zm6.144,4.5a2.278,2.278,0,0,1,1.672.64,2.3,2.3,0,0,1,.648,1.712A2.325,2.325,0,0,1,28.616-.5a2.263,2.263,0,0,1-1.672.648A2.3,2.3,0,0,1,25.272-.5a2.294,2.294,0,0,1-.664-1.72,2.282,2.282,0,0,1,.656-1.712A2.305,2.305,0,0,1,26.944-4.576ZM25.632-2.224a1.5,1.5,0,0,0,.36,1.04,1.219,1.219,0,0,0,.952.4,1.2,1.2,0,0,0,.936-.4,1.5,1.5,0,0,0,.36-1.04,1.5,1.5,0,0,0-.36-1.04,1.2,1.2,0,0,0-.936-.4,1.219,1.219,0,0,0-.952.4A1.5,1.5,0,0,0,25.632-2.224Z" transform="translate(477 23799)" opacity="0.387"/>
+                                <path id="Tracé_3525" data-name="Tracé 3525" d="M.5-2.592V-3.808L6.288-11.36H7.856v7.5H9.52v1.264H7.856V0H6.384V-2.592ZM6.48-9.584,2.032-3.856H6.48Zm4.352,3.872a8.384,8.384,0,0,0,.9,4.24,3.3,3.3,0,0,0,3.1,1.52,3.323,3.323,0,0,0,3.112-1.52,8.323,8.323,0,0,0,.9-4.24,8.247,8.247,0,0,0-.9-4.208,3.323,3.323,0,0,0-3.112-1.52,3.309,3.309,0,0,0-3.1,1.512A8.3,8.3,0,0,0,10.832-5.712Zm6.576,0a11.385,11.385,0,0,1-.2,2.328,2.92,2.92,0,0,1-.76,1.5,2.188,2.188,0,0,1-1.616.56,2.165,2.165,0,0,1-1.6-.56,2.92,2.92,0,0,1-.76-1.5,11.385,11.385,0,0,1-.2-2.328,11.17,11.17,0,0,1,.2-2.3,2.867,2.867,0,0,1,.76-1.48,2.184,2.184,0,0,1,1.6-.552,2.207,2.207,0,0,1,1.616.552,2.867,2.867,0,0,1,.76,1.48A11.17,11.17,0,0,1,17.408-5.712Zm5.2-5.728a2.3,2.3,0,0,1,1.672.648,2.294,2.294,0,0,1,.664,1.72,2.282,2.282,0,0,1-.656,1.712,2.306,2.306,0,0,1-1.68.64,2.306,2.306,0,0,1-1.68-.64,2.282,2.282,0,0,1-.656-1.712,2.309,2.309,0,0,1,.656-1.72A2.29,2.29,0,0,1,22.608-11.44Zm6.368.144L22.5,0h-1.44l6.48-11.3ZM21.3-9.072a1.5,1.5,0,0,0,.36,1.04,1.2,1.2,0,0,0,.936.4,1.244,1.244,0,0,0,.96-.4,1.476,1.476,0,0,0,.368-1.04,1.476,1.476,0,0,0-.368-1.04,1.244,1.244,0,0,0-.96-.4,1.2,1.2,0,0,0-.936.4A1.5,1.5,0,0,0,21.3-9.072Zm6.144,4.5a2.278,2.278,0,0,1,1.672.64,2.3,2.3,0,0,1,.648,1.712A2.325,2.325,0,0,1,29.112-.5,2.263,2.263,0,0,1,27.44.144,2.3,2.3,0,0,1,25.768-.5a2.294,2.294,0,0,1-.664-1.72,2.282,2.282,0,0,1,.656-1.712A2.306,2.306,0,0,1,27.44-4.576ZM26.128-2.224a1.5,1.5,0,0,0,.36,1.04,1.219,1.219,0,0,0,.952.4,1.2,1.2,0,0,0,.936-.4,1.5,1.5,0,0,0,.36-1.04,1.5,1.5,0,0,0-.36-1.04,1.2,1.2,0,0,0-.936-.4,1.219,1.219,0,0,0-.952.4A1.5,1.5,0,0,0,26.128-2.224Z" transform="translate(477 23759)" opacity="0.387"/>
+                                <path id="Tracé_3526" data-name="Tracé 3526" d="M8.512-10.128H2.72v3.776a2.7,2.7,0,0,1,1.152-.864,4.166,4.166,0,0,1,1.648-.32,3.645,3.645,0,0,1,1.992.5A3.051,3.051,0,0,1,8.68-5.7a4.362,4.362,0,0,1,.376,1.832A4.14,4.14,0,0,1,8.08-1.024,3.621,3.621,0,0,1,5.216.08,4.1,4.1,0,0,1,2.448-.84a3.493,3.493,0,0,1-1.2-2.472h1.44a2.529,2.529,0,0,0,.824,1.544,2.441,2.441,0,0,0,1.64.552,2.3,2.3,0,0,0,1.856-.736,2.892,2.892,0,0,0,.624-1.936,2.5,2.5,0,0,0-.64-1.824,2.41,2.41,0,0,0-1.808-.656,2.862,2.862,0,0,0-1.456.36,2.388,2.388,0,0,0-.944.968H1.376v-6.384H8.512Zm2.256,4.416a8.384,8.384,0,0,0,.9,4.24,3.3,3.3,0,0,0,3.1,1.52,3.323,3.323,0,0,0,3.112-1.52,8.323,8.323,0,0,0,.9-4.24,8.247,8.247,0,0,0-.9-4.208,3.323,3.323,0,0,0-3.112-1.52,3.309,3.309,0,0,0-3.1,1.512A8.3,8.3,0,0,0,10.768-5.712Zm6.576,0a11.385,11.385,0,0,1-.2,2.328,2.92,2.92,0,0,1-.76,1.5,2.188,2.188,0,0,1-1.616.56,2.165,2.165,0,0,1-1.6-.56,2.92,2.92,0,0,1-.76-1.5,11.385,11.385,0,0,1-.2-2.328,11.17,11.17,0,0,1,.2-2.3,2.867,2.867,0,0,1,.76-1.48,2.184,2.184,0,0,1,1.6-.552,2.207,2.207,0,0,1,1.616.552,2.867,2.867,0,0,1,.76,1.48A11.17,11.17,0,0,1,17.344-5.712Zm5.2-5.728a2.3,2.3,0,0,1,1.672.648,2.294,2.294,0,0,1,.664,1.72,2.282,2.282,0,0,1-.656,1.712,2.306,2.306,0,0,1-1.68.64,2.306,2.306,0,0,1-1.68-.64,2.282,2.282,0,0,1-.656-1.712,2.309,2.309,0,0,1,.656-1.72A2.29,2.29,0,0,1,22.544-11.44Zm6.368.144L22.432,0h-1.44l6.48-11.3Zm-7.68,2.224a1.5,1.5,0,0,0,.36,1.04,1.2,1.2,0,0,0,.936.4,1.244,1.244,0,0,0,.96-.4,1.476,1.476,0,0,0,.368-1.04,1.476,1.476,0,0,0-.368-1.04,1.244,1.244,0,0,0-.96-.4,1.2,1.2,0,0,0-.936.4A1.5,1.5,0,0,0,21.232-9.072Zm6.144,4.5a2.278,2.278,0,0,1,1.672.64A2.3,2.3,0,0,1,29.7-2.224,2.325,2.325,0,0,1,29.048-.5a2.263,2.263,0,0,1-1.672.648A2.3,2.3,0,0,1,25.7-.5a2.294,2.294,0,0,1-.664-1.72A2.282,2.282,0,0,1,25.7-3.936,2.306,2.306,0,0,1,27.376-4.576ZM26.064-2.224a1.5,1.5,0,0,0,.36,1.04,1.219,1.219,0,0,0,.952.4,1.2,1.2,0,0,0,.936-.4,1.5,1.5,0,0,0,.36-1.04,1.5,1.5,0,0,0-.36-1.04,1.2,1.2,0,0,0-.936-.4,1.219,1.219,0,0,0-.952.4A1.5,1.5,0,0,0,26.064-2.224Z" transform="translate(477 23719)" opacity="0.387"/>
+                                <path id="Tracé_3527" data-name="Tracé 3527" d="M7.28-8.272a2.6,2.6,0,0,0-.68-1.56,2.065,2.065,0,0,0-1.528-.552A2.3,2.3,0,0,0,3.016-9.328a6.226,6.226,0,0,0-.7,3.344l.016.592A2.508,2.508,0,0,1,3.44-6.92a3.614,3.614,0,0,1,2.032-.568A3.446,3.446,0,0,1,8.1-6.48a3.939,3.939,0,0,1,.952,2.816A4.317,4.317,0,0,1,8.64-1.752,3.156,3.156,0,0,1,7.368-.392a4.117,4.117,0,0,1-2.12.5,3.536,3.536,0,0,1-3.32-1.52,8.06,8.06,0,0,1-.9-4.128,8.486,8.486,0,0,1,.968-4.52,3.468,3.468,0,0,1,3.16-1.512,3.28,3.28,0,0,1,2.488.912A3.955,3.955,0,0,1,8.672-8.272ZM2.5-3.9a2.9,2.9,0,0,0,.68,1.96,2.542,2.542,0,0,0,2.04.792,2.438,2.438,0,0,0,1.792-.664A2.5,2.5,0,0,0,7.68-3.68a2.7,2.7,0,0,0-.672-1.976,2.491,2.491,0,0,0-1.856-.68,3.1,3.1,0,0,0-1.28.272,2.364,2.364,0,0,0-.992.824A2.281,2.281,0,0,0,2.5-3.9Zm8.352-1.808a8.384,8.384,0,0,0,.9,4.24,3.3,3.3,0,0,0,3.1,1.52,3.323,3.323,0,0,0,3.112-1.52,8.323,8.323,0,0,0,.9-4.24,8.247,8.247,0,0,0-.9-4.208,3.323,3.323,0,0,0-3.112-1.52,3.309,3.309,0,0,0-3.1,1.512A8.3,8.3,0,0,0,10.848-5.712Zm6.576,0a11.385,11.385,0,0,1-.2,2.328,2.92,2.92,0,0,1-.76,1.5,2.188,2.188,0,0,1-1.616.56,2.165,2.165,0,0,1-1.6-.56,2.92,2.92,0,0,1-.76-1.5,11.385,11.385,0,0,1-.2-2.328,11.17,11.17,0,0,1,.2-2.3,2.867,2.867,0,0,1,.76-1.48,2.184,2.184,0,0,1,1.6-.552,2.207,2.207,0,0,1,1.616.552,2.867,2.867,0,0,1,.76,1.48A11.17,11.17,0,0,1,17.424-5.712Zm5.2-5.728a2.3,2.3,0,0,1,1.672.648,2.294,2.294,0,0,1,.664,1.72A2.282,2.282,0,0,1,24.3-7.36a2.306,2.306,0,0,1-1.68.64,2.306,2.306,0,0,1-1.68-.64,2.282,2.282,0,0,1-.656-1.712,2.309,2.309,0,0,1,.656-1.72A2.29,2.29,0,0,1,22.624-11.44Zm6.368.144L22.512,0h-1.44l6.48-11.3Zm-7.68,2.224a1.5,1.5,0,0,0,.36,1.04,1.2,1.2,0,0,0,.936.4,1.244,1.244,0,0,0,.96-.4,1.476,1.476,0,0,0,.368-1.04,1.476,1.476,0,0,0-.368-1.04,1.244,1.244,0,0,0-.96-.4,1.2,1.2,0,0,0-.936.4A1.5,1.5,0,0,0,21.312-9.072Zm6.144,4.5a2.278,2.278,0,0,1,1.672.64,2.3,2.3,0,0,1,.648,1.712A2.325,2.325,0,0,1,29.128-.5a2.263,2.263,0,0,1-1.672.648A2.3,2.3,0,0,1,25.784-.5a2.294,2.294,0,0,1-.664-1.72,2.282,2.282,0,0,1,.656-1.712A2.305,2.305,0,0,1,27.456-4.576ZM26.144-2.224a1.5,1.5,0,0,0,.36,1.04,1.219,1.219,0,0,0,.952.4,1.2,1.2,0,0,0,.936-.4,1.5,1.5,0,0,0,.36-1.04,1.5,1.5,0,0,0-.36-1.04,1.2,1.2,0,0,0-.936-.4,1.219,1.219,0,0,0-.952.4A1.5,1.5,0,0,0,26.144-2.224Z" transform="translate(477 23679)" opacity="0.387"/>
+                                <path id="Tracé_3528" data-name="Tracé 3528" d="M7.616-10.224,3.344,0H1.808L6.144-10.08H.224v-1.264H7.616ZM9.008-5.712a8.384,8.384,0,0,0,.9,4.24,3.3,3.3,0,0,0,3.1,1.52,3.323,3.323,0,0,0,3.112-1.52,8.323,8.323,0,0,0,.9-4.24,8.247,8.247,0,0,0-.9-4.208,3.323,3.323,0,0,0-3.112-1.52A3.309,3.309,0,0,0,9.9-9.928,8.3,8.3,0,0,0,9.008-5.712Zm6.576,0a11.385,11.385,0,0,1-.2,2.328,2.92,2.92,0,0,1-.76,1.5,2.188,2.188,0,0,1-1.616.56,2.165,2.165,0,0,1-1.6-.56,2.92,2.92,0,0,1-.76-1.5,11.385,11.385,0,0,1-.2-2.328,11.17,11.17,0,0,1,.2-2.3,2.867,2.867,0,0,1,.76-1.48,2.184,2.184,0,0,1,1.6-.552,2.207,2.207,0,0,1,1.616.552,2.867,2.867,0,0,1,.76,1.48A11.17,11.17,0,0,1,15.584-5.712Zm5.2-5.728a2.3,2.3,0,0,1,1.672.648,2.294,2.294,0,0,1,.664,1.72,2.282,2.282,0,0,1-.656,1.712,2.306,2.306,0,0,1-1.68.64,2.306,2.306,0,0,1-1.68-.64,2.282,2.282,0,0,1-.656-1.712,2.309,2.309,0,0,1,.656-1.72A2.29,2.29,0,0,1,20.784-11.44Zm6.368.144L20.672,0h-1.44l6.48-11.3Zm-7.68,2.224a1.5,1.5,0,0,0,.36,1.04,1.2,1.2,0,0,0,.936.4,1.244,1.244,0,0,0,.96-.4,1.476,1.476,0,0,0,.368-1.04,1.476,1.476,0,0,0-.368-1.04,1.244,1.244,0,0,0-.96-.4,1.2,1.2,0,0,0-.936.4A1.5,1.5,0,0,0,19.472-9.072Zm6.144,4.5a2.278,2.278,0,0,1,1.672.64,2.3,2.3,0,0,1,.648,1.712A2.325,2.325,0,0,1,27.288-.5a2.263,2.263,0,0,1-1.672.648A2.3,2.3,0,0,1,23.944-.5a2.294,2.294,0,0,1-.664-1.72,2.282,2.282,0,0,1,.656-1.712A2.305,2.305,0,0,1,25.616-4.576ZM24.3-2.224a1.5,1.5,0,0,0,.36,1.04,1.219,1.219,0,0,0,.952.4,1.2,1.2,0,0,0,.936-.4,1.5,1.5,0,0,0,.36-1.04,1.5,1.5,0,0,0-.36-1.04,1.2,1.2,0,0,0-.936-.4,1.219,1.219,0,0,0-.952.4A1.5,1.5,0,0,0,24.3-2.224Z" transform="translate(477 23639)" opacity="0.387"/>
+                                <path id="Tracé_3529" data-name="Tracé 3529" d="M1.136-8.624a2.728,2.728,0,0,1,.448-1.52,3.024,3.024,0,0,1,1.328-1.088,5.033,5.033,0,0,1,2.1-.4,4.978,4.978,0,0,1,2.088.4,3.031,3.031,0,0,1,1.32,1.088,2.728,2.728,0,0,1,.448,1.52,2.657,2.657,0,0,1-.512,1.632A2.779,2.779,0,0,1,6.8-6.016,3.32,3.32,0,0,1,8.544-4.96,2.809,2.809,0,0,1,9.168-3.1,3.045,3.045,0,0,1,8.032-.592,4.689,4.689,0,0,1,5.008.32,4.689,4.689,0,0,1,1.984-.592,3.045,3.045,0,0,1,.848-3.1,2.833,2.833,0,0,1,1.464-4.96,3.276,3.276,0,0,1,3.2-6.016a2.779,2.779,0,0,1-1.552-.976A2.657,2.657,0,0,1,1.136-8.624Zm1.44.208a1.779,1.779,0,0,0,.656,1.48,2.782,2.782,0,0,0,1.776.52,2.748,2.748,0,0,0,1.768-.52,1.788,1.788,0,0,0,.648-1.48A1.779,1.779,0,0,0,6.768-9.9a2.755,2.755,0,0,0-1.76-.52A2.789,2.789,0,0,0,3.24-9.9,1.77,1.77,0,0,0,2.576-8.416Zm-.3,5.232A2.055,2.055,0,0,0,3.008-1.5a3.074,3.074,0,0,0,2,.6A3.02,3.02,0,0,0,6.992-1.5a2.06,2.06,0,0,0,.736-1.68A1.91,1.91,0,0,0,6.96-4.832a3.228,3.228,0,0,0-1.952-.56,3.257,3.257,0,0,0-1.968.56A1.91,1.91,0,0,0,2.272-3.184Zm8.64-2.528a8.384,8.384,0,0,0,.9,4.24,3.3,3.3,0,0,0,3.1,1.52,3.323,3.323,0,0,0,3.112-1.52,8.323,8.323,0,0,0,.9-4.24,8.247,8.247,0,0,0-.9-4.208,3.323,3.323,0,0,0-3.112-1.52,3.309,3.309,0,0,0-3.1,1.512A8.3,8.3,0,0,0,10.912-5.712Zm6.576,0a11.385,11.385,0,0,1-.2,2.328,2.92,2.92,0,0,1-.76,1.5,2.188,2.188,0,0,1-1.616.56,2.165,2.165,0,0,1-1.6-.56,2.92,2.92,0,0,1-.76-1.5,11.385,11.385,0,0,1-.2-2.328,11.17,11.17,0,0,1,.2-2.3,2.867,2.867,0,0,1,.76-1.48,2.184,2.184,0,0,1,1.6-.552,2.207,2.207,0,0,1,1.616.552,2.867,2.867,0,0,1,.76,1.48A11.17,11.17,0,0,1,17.488-5.712Zm5.2-5.728a2.3,2.3,0,0,1,1.672.648,2.294,2.294,0,0,1,.664,1.72,2.282,2.282,0,0,1-.656,1.712,2.306,2.306,0,0,1-1.68.64,2.306,2.306,0,0,1-1.68-.64,2.282,2.282,0,0,1-.656-1.712,2.309,2.309,0,0,1,.656-1.72A2.29,2.29,0,0,1,22.688-11.44Zm6.368.144L22.576,0h-1.44l6.48-11.3Zm-7.68,2.224a1.5,1.5,0,0,0,.36,1.04,1.2,1.2,0,0,0,.936.4,1.244,1.244,0,0,0,.96-.4A1.476,1.476,0,0,0,24-9.072a1.476,1.476,0,0,0-.368-1.04,1.244,1.244,0,0,0-.96-.4,1.2,1.2,0,0,0-.936.4A1.5,1.5,0,0,0,21.376-9.072Zm6.144,4.5a2.278,2.278,0,0,1,1.672.64,2.3,2.3,0,0,1,.648,1.712A2.325,2.325,0,0,1,29.192-.5,2.263,2.263,0,0,1,27.52.144,2.3,2.3,0,0,1,25.848-.5a2.294,2.294,0,0,1-.664-1.72,2.282,2.282,0,0,1,.656-1.712A2.305,2.305,0,0,1,27.52-4.576ZM26.208-2.224a1.5,1.5,0,0,0,.36,1.04,1.219,1.219,0,0,0,.952.4,1.2,1.2,0,0,0,.936-.4,1.5,1.5,0,0,0,.36-1.04,1.5,1.5,0,0,0-.36-1.04,1.2,1.2,0,0,0-.936-.4,1.219,1.219,0,0,0-.952.4A1.5,1.5,0,0,0,26.208-2.224Z" transform="translate(477 23599)" opacity="0.387"/>
+                                <path id="Tracé_3530" data-name="Tracé 3530" d="M2.56-3.168a2.6,2.6,0,0,0,.7,1.552A2.111,2.111,0,0,0,4.8-1.072a2.279,2.279,0,0,0,2.032-1.04,6.12,6.12,0,0,0,.688-3.3q0-.432-.016-.656A2.473,2.473,0,0,1,6.416-4.528a3.577,3.577,0,0,1-2.032.576A3.472,3.472,0,0,1,1.744-4.96a3.919,3.919,0,0,1-.96-2.816A4.368,4.368,0,0,1,1.2-9.7a3.146,3.146,0,0,1,1.272-1.368,4.117,4.117,0,0,1,2.12-.5,3.574,3.574,0,0,1,3.336,1.5,7.924,7.924,0,0,1,.9,4.1A8.987,8.987,0,0,1,7.9-1.432,3.323,3.323,0,0,1,4.8.128a3.427,3.427,0,0,1-2.536-.92,3.838,3.838,0,0,1-1.08-2.376Zm4.8-4.384A2.912,2.912,0,0,0,6.68-9.5a2.529,2.529,0,0,0-2.04-.8,2.422,2.422,0,0,0-1.792.672A2.53,2.53,0,0,0,2.176-7.76a2.7,2.7,0,0,0,.672,1.968,2.454,2.454,0,0,0,1.84.688,3.155,3.155,0,0,0,1.288-.272,2.334,2.334,0,0,0,1-.832A2.318,2.318,0,0,0,7.36-7.552Zm3.28,1.84a8.384,8.384,0,0,0,.9,4.24,3.3,3.3,0,0,0,3.1,1.52,3.323,3.323,0,0,0,3.112-1.52,8.323,8.323,0,0,0,.9-4.24,8.247,8.247,0,0,0-.9-4.208,3.323,3.323,0,0,0-3.112-1.52,3.309,3.309,0,0,0-3.1,1.512A8.3,8.3,0,0,0,10.64-5.712Zm6.576,0a11.385,11.385,0,0,1-.2,2.328,2.92,2.92,0,0,1-.76,1.5,2.188,2.188,0,0,1-1.616.56,2.165,2.165,0,0,1-1.6-.56,2.92,2.92,0,0,1-.76-1.5,11.385,11.385,0,0,1-.2-2.328,11.17,11.17,0,0,1,.2-2.3,2.867,2.867,0,0,1,.76-1.48,2.184,2.184,0,0,1,1.6-.552,2.207,2.207,0,0,1,1.616.552,2.867,2.867,0,0,1,.76,1.48A11.17,11.17,0,0,1,17.216-5.712Zm5.2-5.728a2.3,2.3,0,0,1,1.672.648,2.294,2.294,0,0,1,.664,1.72A2.282,2.282,0,0,1,24.1-7.36a2.306,2.306,0,0,1-1.68.64,2.306,2.306,0,0,1-1.68-.64,2.282,2.282,0,0,1-.656-1.712,2.309,2.309,0,0,1,.656-1.72A2.29,2.29,0,0,1,22.416-11.44Zm6.368.144L22.3,0h-1.44l6.48-11.3ZM21.1-9.072a1.5,1.5,0,0,0,.36,1.04,1.2,1.2,0,0,0,.936.4,1.244,1.244,0,0,0,.96-.4,1.476,1.476,0,0,0,.368-1.04,1.476,1.476,0,0,0-.368-1.04,1.244,1.244,0,0,0-.96-.4,1.2,1.2,0,0,0-.936.4A1.5,1.5,0,0,0,21.1-9.072Zm6.144,4.5a2.278,2.278,0,0,1,1.672.64,2.3,2.3,0,0,1,.648,1.712A2.325,2.325,0,0,1,28.92-.5a2.263,2.263,0,0,1-1.672.648A2.3,2.3,0,0,1,25.576-.5a2.294,2.294,0,0,1-.664-1.72,2.282,2.282,0,0,1,.656-1.712A2.305,2.305,0,0,1,27.248-4.576ZM25.936-2.224a1.5,1.5,0,0,0,.36,1.04,1.219,1.219,0,0,0,.952.4,1.2,1.2,0,0,0,.936-.4,1.5,1.5,0,0,0,.36-1.04,1.5,1.5,0,0,0-.36-1.04,1.2,1.2,0,0,0-.936-.4,1.219,1.219,0,0,0-.952.4A1.5,1.5,0,0,0,25.936-2.224Z" transform="translate(477 23559)" opacity="0.387"/>
+                                <path id="Tracé_3531" data-name="Tracé 3531" d="M.208-9.92v-1.36H3.44V0H1.9V-9.92ZM5.5-5.712a8.384,8.384,0,0,0,.9,4.24A3.3,3.3,0,0,0,9.5.048a3.323,3.323,0,0,0,3.112-1.52,8.323,8.323,0,0,0,.9-4.24,8.247,8.247,0,0,0-.9-4.208A3.323,3.323,0,0,0,9.5-11.44,3.309,3.309,0,0,0,6.4-9.928,8.3,8.3,0,0,0,5.5-5.712Zm6.576,0a11.385,11.385,0,0,1-.2,2.328,2.92,2.92,0,0,1-.76,1.5,2.188,2.188,0,0,1-1.616.56,2.165,2.165,0,0,1-1.6-.56,2.92,2.92,0,0,1-.76-1.5,11.385,11.385,0,0,1-.2-2.328,11.17,11.17,0,0,1,.2-2.3A2.867,2.867,0,0,1,7.9-9.5a2.184,2.184,0,0,1,1.6-.552A2.207,2.207,0,0,1,11.12-9.5a2.867,2.867,0,0,1,.76,1.48A11.17,11.17,0,0,1,12.08-5.712Zm3.248,0a8.384,8.384,0,0,0,.9,4.24,3.3,3.3,0,0,0,3.1,1.52,3.323,3.323,0,0,0,3.112-1.52,8.323,8.323,0,0,0,.9-4.24,8.247,8.247,0,0,0-.9-4.208,3.323,3.323,0,0,0-3.112-1.52,3.309,3.309,0,0,0-3.1,1.512A8.3,8.3,0,0,0,15.328-5.712Zm6.576,0a11.385,11.385,0,0,1-.2,2.328,2.92,2.92,0,0,1-.76,1.5,2.188,2.188,0,0,1-1.616.56,2.165,2.165,0,0,1-1.6-.56,2.92,2.92,0,0,1-.76-1.5,11.385,11.385,0,0,1-.2-2.328,11.17,11.17,0,0,1,.2-2.3,2.867,2.867,0,0,1,.76-1.48,2.184,2.184,0,0,1,1.6-.552,2.207,2.207,0,0,1,1.616.552,2.867,2.867,0,0,1,.76,1.48A11.17,11.17,0,0,1,21.9-5.712Zm5.2-5.728a2.3,2.3,0,0,1,1.672.648,2.294,2.294,0,0,1,.664,1.72,2.282,2.282,0,0,1-.656,1.712,2.306,2.306,0,0,1-1.68.64,2.306,2.306,0,0,1-1.68-.64,2.282,2.282,0,0,1-.656-1.712,2.309,2.309,0,0,1,.656-1.72A2.29,2.29,0,0,1,27.1-11.44Zm6.368.144L26.992,0h-1.44l6.48-11.3Zm-7.68,2.224a1.5,1.5,0,0,0,.36,1.04,1.2,1.2,0,0,0,.936.4,1.244,1.244,0,0,0,.96-.4,1.476,1.476,0,0,0,.368-1.04,1.476,1.476,0,0,0-.368-1.04,1.244,1.244,0,0,0-.96-.4,1.2,1.2,0,0,0-.936.4A1.5,1.5,0,0,0,25.792-9.072Zm6.144,4.5a2.278,2.278,0,0,1,1.672.64,2.3,2.3,0,0,1,.648,1.712A2.325,2.325,0,0,1,33.608-.5a2.263,2.263,0,0,1-1.672.648A2.3,2.3,0,0,1,30.264-.5a2.294,2.294,0,0,1-.664-1.72,2.282,2.282,0,0,1,.656-1.712A2.305,2.305,0,0,1,31.936-4.576ZM30.624-2.224a1.5,1.5,0,0,0,.36,1.04,1.219,1.219,0,0,0,.952.4,1.2,1.2,0,0,0,.936-.4,1.5,1.5,0,0,0,.36-1.04,1.5,1.5,0,0,0-.36-1.04,1.2,1.2,0,0,0-.936-.4,1.219,1.219,0,0,0-.952.4A1.5,1.5,0,0,0,30.624-2.224Z" transform="translate(477 23520)" opacity="0.387"/>
+                                <g id="mortalite-bar-1" transform="translate(561 23890)" fill="#fffaf4" stroke="#806145" stroke-width="1">
+                                <rect width="87" height="33" stroke="none"/>
+                                <rect x="0.5" y="0.5" width="86" height="32" fill="none"/>
+                                </g>
+                                <g id="mortalite-bar-2" transform="translate(720 23858)" fill="#fffaf4" stroke="#806145" stroke-width="1">
+                                <rect width="87" height="65" stroke="none"/>
+                                <rect x="0.5" y="0.5" width="86" height="64" fill="none"/>
+                                </g>
+                                <g id="mortalite-bar-3" transform="translate(879 23824)" fill="#fffaf4" stroke="#806145" stroke-width="1">
+                                <rect width="87" height="99" stroke="none"/>
+                                <rect x="0.5" y="0.5" width="86" height="98" fill="none"/>
+                                </g>
+                                <g id="mortalite-bar-4" transform="translate(1038 23683)" fill="#fffaf4" stroke="#806145" stroke-width="1">
+                                <rect width="87" height="240" stroke="none"/>
+                                <rect x="0.5" y="0.5" width="86" height="239" fill="none"/>
+                                </g>
+                            </g>
+                        </svg>
+                        <img src="img/this/100-ans-ascension-cervin-mortalite-8.webp" alt="Elément textuel en lien avec la mortalité de l'élite de l'alpinisme" class="mortalite-8 absolute">
+                        <img src="img/this/100-ans-ascension-cervin-mortalite-16.webp" alt="Elément textuel en lien avec la mortalité de l'élite de l'alpinisme" class="mortalite-16 absolute">
+                        <img src="img/this/100-ans-ascension-cervin-mortalite-24.webp" alt="Elément textuel en lien avec la mortalité de l'élite de l'alpinisme" class="mortalite-24 absolute">
+                        <img src="img/this/100-ans-ascension-cervin-mortalite-60.webp" alt="Elément textuel en lien avec la mortalité de l'élite de l'alpinisme" class="mortalite-60 absolute">
+                    </figure>
+
+                    <p class="text-lg font-light mb-6">
+                       Arrivé en haut, c’est l’euphorie: «Oh la dinguerie!», suivie de réflexions philosophiques: «Ce qui me fascine dans l’alpinisme, c’est que la souffrance que tu endures pendant l’ascension décuple le bonheur que tu ressens au sommet», confie Inoxtag à ses fans. Et puis aussi ceci: «Pendant les deux ascensions, j’ai compris une chose: tu dois pas escalader une montagne pour que tout le monde te voie, tu dois l’escalader pour voir le monde.» 
+                    </p>
+
+                    <p class="text-lg font-light mb-6">
+                       De fait, la vidéo où Inoxtag filme son ascension du Mont Blanc et du Cervin a été regardée 10 millions de fois sur Youtube.  Joli score, mais qui n’est rien encore par rapport aux 44 millions de vues de son film Kaizen, le documentaire retraçant l’épopée du youtubeur jusqu’au sommet de l’Everest en 2024.  
+                    </p>
+
+                    <figure class="pt-4 pb-6 -mx-0 lg:-mx-32 xl:-mx-64">
+                        <div class="container">
+                            <div class="w-full">
+                                <img src="img/this/100-ans-ascension-cervin-inoxtag-au-sommet-du-cervin.webp" alt="Au mur, de l’humour et de la prévention sur fond acidulé">
+                                <figcaption class="py-2 text-xs">Le youtubeur Inès Benazzouz, alias Inoxtag, a gravi le Mont Blanc en été 2023, puis il a enchaîné avec le Cervin. – Mathis Dumas</figcaption>
+                            </div>
+                        </div>
+                    </figure>
+
+                    <p class="text-lg font-light mb-6">
+                       Abondamment regardé et commenté, cet exploit a également suscité des critiques. Certains lui ont reproché son manque de reconnaissance pour les sherpas qui risquent leur vie, à l’image des guides du XIXe siècle dans les Alpes. En réalité, le jeune homme a beaucoup mis en avant les personnes qui l’accompagnaient, notamment Manish, son guide népalais. 
+                    </p>
+
+                    <p class="text-lg font-light mb-6">
+                       Des voix se sont élevées également pour condamner l’impact environnemental de ce type  d’exploit, soit la présence délétère des alpinistes sur la montagne ainsi que la pollution des voyages en avion jusque dans la région. D’aucuns ont souligné en outre que l’exemple d’Inoxtag risquait de pousser de plus en plus de touristes inexpérimentés vers les sommets, avec de potentielles conséquences funestes. En bref, les détracteurs du youtubeur ont dénoncé une «marchandisation» de la montagne incarnant le narcissisme d’une star des réseaux.  
+                    </p>
+
+                    <p class="text-lg font-light mb-6">
+                       Que reste-t-il de l’héritage d’Edward Whymper dans la figure du youtubeur qui se lance à l’assaut des sommets au XXIe siècle? Pour le sociologue de l’Université de Lausanne Philippe Vonnard, on est passé «de l’exploration de l’environnement à l’exploration de soi»: «Avec Inoxtag, ce n’est pas l'Everest qu'on veut montrer, c’est une personne qui ne connait pas la montagne et qui va sur l'Everest.»  
+                    </p>
+
+                    <p class="text-lg font-light mb-10">
+                       A 160 ans d’écart, ces deux figures de leur époque ont tout de même un point commun: leur goût pour le récit, de soi comme de l’aventure. «Publiciser son action, cela existait déjà au XIXe siècle», relève Philippe Vonnard.  «Edward Whymper dessinait, créait des gravures et il a raconté par écrit ses escalades dans les Alpes. En ce sens, Inoxtag ne fait que poursuivre ce qui a été initié par les alpinistes du XIXe siècle.»
+                    </p>
+
+                </div>
+
+
+
+
+
+
+                <!-- END OF CONTENT -->
+            </div>
+
+            <div class="container max-w-screen-2xl px-4 py-8 md:py-12 relative bg-orange-50">
+
+
+
+                <div class="container max-w-2xl">
+                    <h4 class="leading-none block mb-8">Épilogue: La mort blanche</h4>
+                    <p class="text-lg font-light mb-6">
+                       Le 24 mai 2025, les corps de cinq skieurs ont été retrouvés dans le massif du Rimpfischhorn, entre Saas-Fee et Zermatt. Les randonneurs, qui avaient quitté une cabane très tôt le matin, <a href="https://www.blick.ch/fr/suisse/zermatt-les-cinq-randonneurs-auraient-peri-dans-une-avalanche-id20907713.html" class="underline decoration-2 font-semibold" rel="noopener">ont probablement été victimes d’une avalanche</a>. 
+                    </p>
+
+                    <p class="text-lg font-light mb-6">
+                       Une année auparavant, en mars 2024, <a href="https://www.blick.ch/fr/suisse/comment-le-drame-est-il-arrive-le-deroule-de-la-randonnee-du-drame-a-tete-blanche-minute-par-minute-id19527039.html" rel="noopener" class="underline decoration-2 font-semibold">six personnes perdaient la vie lors d’une randonnée à ski entre Zermatt et Arolla</a>. Le groupe était pourtant expérimenté et entraîné. En raison des mauvaises conditions météorologiques, il n’a pas été possible de les sauver à temps. Les randonneurs ont été retrouvés dans la région de Tête-Blanche, sans doute morts de froid. 
+                    </p>
+
+                    <p class="text-lg font-light mb-6">
+                       Malgré les progrès en matière d’équipement, les GPS, les équipes de secours et les Super Puma, la montagne tue, encore. «Parfois, on doit s’incliner devant la nature», soufflait le commandant de la police valaisanne Christian Varone face à la presse après le drame de 2024.
+                    </p>
+
+                    <p class="text-lg font-light mb-6">
+                       <a href="https://www.blick.ch/fr/suisse/blatten-un-prof-de-leth-sexprime-sur-leboulement-et-lavenir-id20941792.html" class="underline decoration-2 font-semibold" rel="noopener">Tant qu’elles existeront</a>, nul doute que les cimes continueront à exercer leur magnétisme sur de nouveaux randonneurs et de nouveaux grimpeurs. Avant de partir, ces nouveaux conquérants des hauteurs pourront toujours laisser résonner en eux les mots d’Edward Whymper: 
+                    </p>
+
+                    <p class="text-xl font-normal italic text-[#8B5C2A] mb-6">
+                       «En me rappelant toutes ces impressions, je dis à mes lecteurs: Grimpez, si vous le voulez, mais souvenez-vous que le courage et la force ne sont rien sans la prudence, et qu’un moment de négligence peut détruire le bonheur de toute une vie. Ne faites rien précipitamment, surveillez bien chacun de vos pas, et, en commençant une expédition, songez à ce que peut en être la fin!» 
+                    </p>
+
+                    <figure class="pt-4 pb-6 mx-auto w-full">
+                        <div class="container">
+                            <div class="w-full">
+                                <img src="img/this/100-ans-ascension-cervin-gravure-edward-whymper-mort.webp" alt="Au mur, de l’humour et de la prévention sur fond acidulé" class="whymper-end">
+                                <figcaption class="py-2 text-xs">Edward Whymper, «Scrambles amongst the Alps», London : John Murray, 1871</figcaption>
+                            </div>
+                        </div>
+                    </figure>
+                </div> 
+
+            </div>
+
+
+
+
+            <div class="container max-w-screen-2xl px-4 relative bg-white">
+                <!-- <div class="font-extrabold uppercase py-6 border-y border-slate-400 md:mt-16 mb-8 md:mb-12">
+                            Double peine pour les femmes?
+                        </div> -->
+
+                <div class="container max-w-2xl pt-12"> 
+
+
+                    <!-- <span
+                        class="mt-4 block p-4 italic bg-gray-50 border-2 border-gray-100 text-sm mb-12"
+                        >Cet article a été publié initialement
+                        <a
+                        href="https://www.illustre.ch/"
+                        target="_blank"
+                        class="underline font-semibold decoration-2"
+                        >dans le n°06 de L'illustré</a
+                        >, paru en kiosque le 06 février 2025.</span
+                    > -->
+
+                    {{ block("creditsajm") }}
+
+                    <div class="spacer h-16 md:h-36"></div>
+                </div>
+            </div>
+
+            <footer class="container max-w-screen-2xl relative bg-slate-200">
+                {{ block("footer_logo") }}
+                <!-- <div class="bg-white px-4">
+                    {{ block('other_teasers') }} 
+                </div> -->
+                <div class="bg-gray-200 px-4">
+                    {{ block("footer_menu") }}
+                </div>
+            </footer>
+
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+            {#
+            <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+            #}
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/smooth-scrollbar@8.7.4/dist/smooth-scrollbar.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/gh/StephanWagner/jBox@v1.3.3/dist/jBox.all.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/plugins/animation.gsap.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/plugins/debug.addIndicators.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/apexcharts@3.41.0"></script>
+            
+            <!-- <script src="https://vjs.zencdn.net/8.0.4/video.min.js"></script> -->
+            <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+            <!-- <script src="js/yt.js"></script>  -->
+            <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+            <!-- <script src="js/plugins.js"></script> -->
+            <script src="js/header.js"></script>
+            <!-- <script src="js/charts.js"></script> -->
+             <script src="js/audioplayer.js"></script>
+            <script src="js/main.js"></script>
+            <script src="js/gsap-animations.js"></script>
+            {#
+            <script src="js/intro.js"></script>
+            #}
+            <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.js"></script>
+            <!-- <script src="js/headroom.min.js"></script> -->
+        </div>
+    </body>
+</html>

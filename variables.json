@@ -1,0 +1,27 @@
+{
+  "title": "Cervin, la montagne qui rend fou",
+  "titlesocial": "Cervin, la montagne qui rend fou",
+  "description": "Le 14 juillet 1865, sept grimpeurs atteignaient pour la première fois le sommet le plus emblématique de Suisse. Seuls trois sont redescendus vivants.",
+  "authors": {
+    "photos": "AJM - Volée 16",
+    "videos": "AJM - Volée 16, Adam Malard, <VIDEASTE DE CHARLES-HENRI>",
+    "writer": {
+      "fname": "Camille",
+      "lname": "Krafft",
+      "title": "Journaliste Blick",
+      "filetype": "png",
+      "url": "https://www.blick.ch/fr/auteurs/camille-krafft-journaliste-blick-id20560911.html"
+    },
+    "dev": "César Greppin"
+  },
+  "imgSocial": "social.jpg",
+  "headertheme": "neg",
+  "blickWhite": true,
+  "blickBlack": false,
+  "headerBoxed": false,
+  "pubDate": "2020-07-23T11:00:00+00:00",
+  "partner": {
+    "logo": "img/empty.png",
+    "link": "https://www.blick.ch/"
+  }
+}
